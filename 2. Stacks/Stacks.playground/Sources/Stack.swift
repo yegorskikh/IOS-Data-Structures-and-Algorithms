@@ -27,6 +27,7 @@ public struct Stack<Element> {
   public var isEmpty: Bool {
     peek() == nil
   }
+    
 }
 
 extension Stack: CustomStringConvertible {
