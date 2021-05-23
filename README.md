@@ -1,14 +1,15 @@
 # IOS-Data-Structures-and-Algorithms
 
-### Table of Contents
-* [Complexity]() - [реализация](https://github.com/egorskikh/IOS-Data-Structures-and-Algorithms/blob/main/Section%201.%20Introduction/1.%20Complexity/Complexity.swift)
-* [Set, Dictionary, Array]()
-* [Stack]() - [реализация](https://github.com/egorskikh/IOS-Data-Structures-and-Algorithms/tree/main/Section%202.%20Elementary%20Data%20Structures/2.%20Stacks/Stacks.playground)
-* [LinkedList]() - [реализация](https://github.com/egorskikh/IOS-Data-Structures-and-Algorithms/tree/main/Section%202.%20Elementary%20Data%20Structures/3.%20LinkedList/LinkedList.playground)
-* [Queues]() - [реализация](https://github.com/egorskikh/IOS-Data-Structures-and-Algorithms/tree/main/Section%202.%20Elementary%20Data%20Structures/4.%20Queues/Queue.playground)
+### Key points
+* [Complexity](https://github.com/egorskikh/IOS-Data-Structures-and-Algorithms#1-complexity)
+* [Set, Dictionary, Array](https://github.com/egorskikh/IOS-Data-Structures-and-Algorithms#2-set-dictionary-array)
+* [Stack](https://github.com/egorskikh/IOS-Data-Structures-and-Algorithms#3-stack) 
+* [LinkedList](https://github.com/egorskikh/IOS-Data-Structures-and-Algorithms#4-linkedlist)
+* [Queues](https://github.com/egorskikh/IOS-Data-Structures-and-Algorithms#5-queues)
 
 ## 1. Complexity
 
+ - [example](https://github.com/egorskikh/IOS-Data-Structures-and-Algorithms/blob/main/Section%201.%20Introduction/1.%20Complexity/Complexity.swift)
 * Сложность времени - это мера времени, необходимого для запуска алгоритма при увеличении размера входных данных.
 * Вы должны знать о постоянном времени, логарифмическом времени, линейном времени, квазилинейном времени и квадратичном времени и уметь упорядочивать их по стоимости.
 * Сложность пространства - это мера ресурсов, необходимых для работы алгоритма.
@@ -23,20 +24,20 @@
 * Set гарантирует уникальность набора значений. Набор оптимизирован по скорости и лишен возможности сохранять порядок элементов.
 
 ## 3. Stack
-
+- [example](https://github.com/egorskikh/IOS-Data-Structures-and-Algorithms/tree/main/Section%202.%20Elementary%20Data%20Structures/2.%20Stacks/Stacks.playground)
 * Стек - это структура данных LIFO, принцип «последний пришел - первый ушел».
 * Несмотря на свою простоту, стек является ключевой структурой данных для многих проблем.
 * Единственные две важные операции для стека - это метод push для добавления элементов и метод pop для удаления элементов.
 
 ## 4. LinkedList 
-
+ - [example](https://github.com/egorskikh/IOS-Data-Structures-and-Algorithms/tree/main/Section%202.%20Elementary%20Data%20Structures/3.%20LinkedList/LinkedList.playground)
 * Связанные списки бывают линейными и однонаправленными. Как только вы переместите ссылку с одного узла на другой, вы не сможете вернуться назад.
 * Связанные списки имеют временную сложность O (1) для вставки заголовком. Массивы имеют временную сложность O (n) для вставок заголовком.
 * Соответствие протоколам сбора Swift, таким как Sequence и Collection, предлагает множество полезных методов для довольно небольшого количества требований.
 * Поведение копирования при записи позволяет достичь семантики значения.
 
 ## 5. Queues
-
+ - [example](https://github.com/egorskikh/IOS-Data-Structures-and-Algorithms/tree/main/Section%202.%20Elementary%20Data%20Structures/4.%20Queues/Queue.playground)
 * Очередь использует стратегию FIFO, элемент, добавленный первым, также должен быть сначала удален.
 * Enqueue вставляет элемент в конец очереди.
 * Dequeue удаляет элемент в начале очереди.
