@@ -1,5 +1,12 @@
 # IOS-Data-Structures-and-Algorithms
 
+### Table of Contents
+* [Complexity]() - [реализация](https://github.com/egorskikh/IOS-Data-Structures-and-Algorithms/blob/main/Section%201.%20Introduction/1.%20Complexity/Complexity.swift)
+* [Set, Dictionary, Array]()
+* [Stack]() - [реализация](https://github.com/egorskikh/IOS-Data-Structures-and-Algorithms/tree/main/Section%202.%20Elementary%20Data%20Structures/2.%20Stacks/Stacks.playground)
+* [LinkedList]() - [реализация](https://github.com/egorskikh/IOS-Data-Structures-and-Algorithms/tree/main/Section%202.%20Elementary%20Data%20Structures/3.%20LinkedList/LinkedList.playground)
+* [Queues]() - [реализация](https://github.com/egorskikh/IOS-Data-Structures-and-Algorithms/tree/main/Section%202.%20Elementary%20Data%20Structures/4.%20Queues/Queue.playground)
+
 ## 1. Complexity
 
 * Сложность времени - это мера времени, необходимого для запуска алгоритма при увеличении размера входных данных.
@@ -27,3 +34,14 @@
 * Связанные списки имеют временную сложность O (1) для вставки заголовком. Массивы имеют временную сложность O (n) для вставок заголовком.
 * Соответствие протоколам сбора Swift, таким как Sequence и Collection, предлагает множество полезных методов для довольно небольшого количества требований.
 * Поведение копирования при записи позволяет достичь семантики значения.
+
+## 5. Queues
+
+* Очередь использует стратегию FIFO, элемент, добавленный первым, также должен быть сначала удален.
+* Enqueue вставляет элемент в конец очереди.
+* Dequeue удаляет элемент в начале очереди.
+* Элементы в массиве размещаются в непрерывных блоках памяти, тогда как элементы в связанном списке более разбросаны, что может привести к промахам в кэше.
+* Реализация на основе кольцевой буферной очереди хороша для очередей с фиксированным размером.
+* По сравнению с другими структурами данных, использование двух стеков улучшает
+dequeue (_ :) временная сложность до амортизированной операции O (1).
+* Реализация двойного стека превосходит Linked-list с точки зрения пространственной локализации.
