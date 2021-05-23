@@ -132,7 +132,7 @@ example(of: "linked list cow") {
     list1.append(2)
     
     var list2 = list1
-        
+    
     print("List1: \(list1)")
     print("List2: \(list2)")
     
@@ -144,7 +144,78 @@ example(of: "linked list cow") {
     
     print("Removing middle node on list2")
     if let node = list2.node(at: 0) {
-      list2.remove(after: node)
+        list2.remove(after: node)
     }
     print("List2: \(list2)")
+}
+
+// Challenge 1: Print in reverse
+
+example(of: "printing in reverse") {
+    var list = LinkedList<Int>()
+    list.push(3)
+    list.push(2)
+    list.push(1)
+    
+    print("Original list: \(list)")
+    print("Printing in reverse:")
+    printInReverse(list)
+}
+
+// Challenge 2: Getting the middle node
+
+example(of: "getting the middle node") {
+    var list = LinkedList<Int>()
+    list.push(3)
+    list.push(2)
+    list.push(1)
+    print(list)
+    
+    if let middleNode = getMiddle(list) {
+        print(middleNode)
+    }
+    
+}
+
+// Challenge 3: Reverse a linked list
+
+example(of: "reversing a list") {
+    var list = LinkedList<Int>()
+    list.push(3)
+    list.push(2)
+    list.push(1)
+    
+    print("Original list: \(list)")
+    list.reverse()
+    print("Reversed list: \(list)")
+}
+
+// Challenge 4: Merge two lists
+
+example(of: "merging two lists") {
+    var list = LinkedList<Int>()
+    list.push(3)
+    list.push(2)
+    list.push(1)
+    var anotherList = LinkedList<Int>()
+    anotherList.push(-1)
+    anotherList.push(-2)
+    anotherList.push(-3)
+    print("First list: \(list)")
+    print("Second list: \(anotherList)")
+    let mergedList = mergeSorted(list, anotherList)
+    print("Merged list: \(mergedList)")
+}
+
+// Challenge 5: Remove all occurrences of a specific element
+example(of: "deleting duplicate nodes") {
+    var list = LinkedList<Int>()
+    list.push(3)
+    list.push(2)
+    list.push(2)
+    list.push(1)
+    list.push(1)
+    
+    list.removeAll(3)
+    print(list)
 }
