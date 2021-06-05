@@ -30,7 +30,7 @@
 * Единственные две важные операции для стека - это метод push для добавления элементов и метод pop для удаления элементов.
 
 ## 4. LinkedList 
- - [example](https://github.com/egorskikh/IOS-Data-Structures-and-Algorithms/tree/main/Section%202.%20Elementary%20Data%20Structures/3.%20LinkedList/LinkedList.playground)
+ - [example](https://github.com/egorskikh/IOS-Data-Structures-and-Algorithms/blob/main/Section%202.%20Elementary%20Data%20Structures/3.%20LinkedList/LinkedList.playground/Sources/LinkedList.swift)
 * Связанные списки бывают линейными и однонаправленными. Как только вы переместите ссылку с одного узла на другой, вы не сможете вернуться назад.
 * Связанные списки имеют временную сложность O (1) для вставки заголовком. Массивы имеют временную сложность O (n) для вставок заголовком.
 * Соответствие протоколам сбора Swift, таким как Sequence и Collection, предлагает множество полезных методов для довольно небольшого количества требований.
