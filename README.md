@@ -37,7 +37,7 @@
 * Поведение копирования при записи позволяет достичь семантики значения.
 
 ## 5. Queues
- - [example](https://github.com/egorskikh/IOS-Data-Structures-and-Algorithms/tree/main/Section%202.%20Elementary%20Data%20Structures/4.%20Queues/Queue.playground)
+ - [example](https://github.com/egorskikh/IOS-Data-Structures-and-Algorithms/blob/main/Section%202.%20Elementary%20Data%20Structures/4.%20Queues/Queue.playground/Sources/Queue.swift)
 * Очередь использует стратегию FIFO, элемент, добавленный первым, также должен быть сначала удален.
 * Enqueue вставляет элемент в конец очереди.
 * Dequeue удаляет элемент в начале очереди.
