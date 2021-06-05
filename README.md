@@ -24,7 +24,7 @@
 * Set гарантирует уникальность набора значений. Набор оптимизирован по скорости и лишен возможности сохранять порядок элементов.
 
 ## 3. Stack
-- [example](https://github.com/egorskikh/IOS-Data-Structures-and-Algorithms/tree/main/Section%202.%20Elementary%20Data%20Structures/2.%20Stacks/Stacks.playground)
+- [example](https://github.com/egorskikh/IOS-Data-Structures-and-Algorithms/blob/main/Section%202.%20Elementary%20Data%20Structures/2.%20Stacks/Stacks.playground/Sources/Stack.swift)
 * Стек - это структура данных LIFO, принцип «последний пришел - первый ушел».
 * Несмотря на свою простоту, стек является ключевой структурой данных для многих проблем.
 * Единственные две важные операции для стека - это метод push для добавления элементов и метод pop для удаления элементов.
