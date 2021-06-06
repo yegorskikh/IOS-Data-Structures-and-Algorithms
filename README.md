@@ -1,6 +1,6 @@
 # IOS-Data-Structures-and-Algorithms
 
-### Key points
+### Content and key points
 * [Complexity](https://github.com/egorskikh/IOS-Data-Structures-and-Algorithms#1-complexity)
 * [Set, Dictionary, Array](https://github.com/egorskikh/IOS-Data-Structures-and-Algorithms#2-set-dictionary-array)
 * [Stack](https://github.com/egorskikh/IOS-Data-Structures-and-Algorithms#3-stack) 
