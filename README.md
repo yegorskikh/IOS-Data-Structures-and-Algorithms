@@ -1,11 +1,39 @@
 # IOS-Data-Structures-and-Algorithms
 
 ### Content and key points
+
+> Section I
 * [Complexity](https://github.com/egorskikh/IOS-Data-Structures-and-Algorithms#1-complexity)
 * [Set, Dictionary, Array](https://github.com/egorskikh/IOS-Data-Structures-and-Algorithms#2-set-dictionary-array)
+
+> Section II
 * [Stack](https://github.com/egorskikh/IOS-Data-Structures-and-Algorithms#3-stack) 
 * [LinkedList](https://github.com/egorskikh/IOS-Data-Structures-and-Algorithms#4-linkedlist)
 * [Queues](https://github.com/egorskikh/IOS-Data-Structures-and-Algorithms#5-queues)
+
+> Section III
+- Trees
+- Binary Trees
+- Binary Search Trees
+- AVL Trees
+- Tries
+- Binary Search
+- The Heap Data Structure
+- Priority Queue
+
+> Section IV
+- O(n2) Sorting Algorithms
+- Merge Sort
+- Radix Sort
+- Heap Sort
+- Quicksort
+
+> Section V
+- Graphs
+- Breadth-First Search
+- Depth-First Search
+- Dijkstra’s Algorithm
+- Prim’s Algorithm
 
 ## Section 1. Introduction
 ### 1. Complexity
@@ -25,6 +53,7 @@
 * Set гарантирует уникальность набора значений. Набор оптимизирован по скорости и лишен возможности сохранять порядок элементов.
 
 ## Section 2. Elementary Data Structures
+
 ### 3. Stack
 - [example](https://github.com/egorskikh/IOS-Data-Structures-and-Algorithms/blob/main/Section%202.%20Elementary%20Data%20Structures/2.%20Stacks/Stacks.playground/Sources/Stack.swift)
 * Стек - это структура данных LIFO, принцип «последний пришел - первый ушел».
