@@ -12,7 +12,7 @@
 * [Queues](https://github.com/egorskikh/IOS-Data-Structures-and-Algorithms#5-queues)
 
 > Section III
-- Trees
+- [Trees](https://github.com/egorskikh/IOS-Data-Structures-and-Algorithms#6-three)
 - Binary Trees
 - Binary Search Trees
 - AVL Trees
