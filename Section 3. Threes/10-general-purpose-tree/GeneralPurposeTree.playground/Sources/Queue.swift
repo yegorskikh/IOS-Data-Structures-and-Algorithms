@@ -22,10 +22,12 @@ public struct Queue<T> {
   }
   
   public mutating func dequeue() -> T? {
+    
     if leftStack.isEmpty {
       leftStack = rightStack.reversed()
       rightStack.removeAll()
     }
+    
     return leftStack.popLast()
   }
 }
