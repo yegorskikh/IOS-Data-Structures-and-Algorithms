@@ -3,16 +3,16 @@
 ### Content and key points
 
 > Section I
-* [Complexity](https://github.com/egorskikh/IOS-Data-Structures-and-Algorithms#1-complexity)
-* [Set, Dictionary, Array](https://github.com/egorskikh/IOS-Data-Structures-and-Algorithms#2-set-dictionary-array)
+* [Complexity](https://github.com/egorskikh/IOS-Data-Structures-and-Algorithms#chapter-1-complexity)
+* [Set, Dictionary, Array](https://github.com/egorskikh/IOS-Data-Structures-and-Algorithms#chapter-2-set-dictionary-array)
 
 > Section II
-* [Stack](https://github.com/egorskikh/IOS-Data-Structures-and-Algorithms#3-stack) 
-* [LinkedList](https://github.com/egorskikh/IOS-Data-Structures-and-Algorithms#4-linkedlist)
-* [Queues](https://github.com/egorskikh/IOS-Data-Structures-and-Algorithms#5-queues)
+* [Stack](https://github.com/egorskikh/IOS-Data-Structures-and-Algorithms#chapter-3-stack) 
+* [LinkedList](https://github.com/egorskikh/IOS-Data-Structures-and-Algorithms#chapter-4-linkedlist)
+* [Queues](https://github.com/egorskikh/IOS-Data-Structures-and-Algorithms#chapter-5-queues)
 
 > Section III
-- [Trees](https://github.com/egorskikh/IOS-Data-Structures-and-Algorithms#6-three)
+- [Trees](https://github.com/egorskikh/IOS-Data-Structures-and-Algorithms#chapter-6-three)
 - Binary Trees
 - Binary Search Trees
 - AVL Trees
@@ -22,7 +22,7 @@
 - Priority Queue
 
 > Section IV
-- O(n2) Sorting Algorithms
+- [O(n2) Sorting Algorithms](https://github.com/egorskikh/IOS-Data-Structures-and-Algorithms#chapter-26-on2-sorting)
 - Merge Sort
 - Radix Sort
 - Heap Sort
@@ -96,7 +96,7 @@ dequeue (_ :) временная сложность до амортизиров�
 
 ## Section IV: Sorting Algorithms
 
-## Chapter 26: O(n2) Sorting
+### Chapter 26: O(n2) Sorting
 ### Key points
 - [example]( - )
 - Алгоритмы n2 часто имеют плохую репутацию, но некоторые из этих алгоритмов обычно имеют определенные преимущества. InsertSort может выполнять сортировку за O (n) раз, если коллекция уже отсортирована, и постепенно уменьшается до O (n2).
