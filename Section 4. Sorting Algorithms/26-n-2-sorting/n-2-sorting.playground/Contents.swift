@@ -21,3 +21,6 @@ example(of: "insertion sort") {
     insertionSort(&array)
     print("Insertion sorted: \(array)") // [3, 4, 9, 10]
 }
+
+
+
