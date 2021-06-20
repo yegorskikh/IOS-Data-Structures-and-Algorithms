@@ -2,16 +2,16 @@
 
 ### Content and key points
 
-> Section I
+> Section I: Introduction
 * [Complexity](https://github.com/egorskikh/IOS-Data-Structures-and-Algorithms#chapter-1-complexity)
 * [Set, Dictionary, Array](https://github.com/egorskikh/IOS-Data-Structures-and-Algorithms#chapter-2-set-dictionary-array)
 
-> Section II
+> Section II: Elementary Data Structures
 * [Stack](https://github.com/egorskikh/IOS-Data-Structures-and-Algorithms#chapter-3-stack) 
 * [LinkedList](https://github.com/egorskikh/IOS-Data-Structures-and-Algorithms#chapter-4-linkedlist)
 * [Queues](https://github.com/egorskikh/IOS-Data-Structures-and-Algorithms#chapter-5-queues)
 
-> Section III
+> Section III: Trees
 - [Trees](https://github.com/egorskikh/IOS-Data-Structures-and-Algorithms#chapter-6-three)
 - Binary Trees
 - Binary Search Trees
@@ -21,14 +21,14 @@
 - The Heap Data Structure
 - Priority Queue
 
-> Section IV
+> Section IV: Sorting Algorithms
 - [O(n2) Sorting Algorithms](https://github.com/egorskikh/IOS-Data-Structures-and-Algorithms#chapter-26-on2-sorting)
 - [Merge Sort](https://github.com/egorskikh/IOS-Data-Structures-and-Algorithms#chapter-28-merge-sort)
 - Radix Sort
 - Heap Sort
 - Quicksort
 
-> Section V
+> Section V: Graphs
 - Graphs
 - Breadth-First Search
 - Depth-First Search
