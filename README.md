@@ -24,7 +24,7 @@
 > Section IV: Sorting Algorithms
 - [O(n2) Sorting Algorithms](https://github.com/egorskikh/IOS-Data-Structures-and-Algorithms#chapter-26-on2-sorting)
 - [Merge Sort](https://github.com/egorskikh/IOS-Data-Structures-and-Algorithms#chapter-28-merge-sort)
-- [Radix Sort](https://github.com/egorskikh/IOS-Data-Structures-and-Algorithms#chapter-30-radix-sort)
+- [Radix Sort](https://github.com/egorskikh/IOS-Data-Structures-and-Algorithms/blob/main/README.md#chapter-30-radix-sort)
 - Heap Sort
 - Quicksort
 
