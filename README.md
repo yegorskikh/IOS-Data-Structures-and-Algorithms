@@ -1,7 +1,7 @@
 # IOS-Data-Structures-and-Algorithms
 > Section I: Introduction
-* [**Complexity**](https://github.com/egorskikh/IOS-Data-Structures-and-Algorithms#chapter-1-complexity)
-* [**Set, Dictionary, Array**](https://github.com/egorskikh/IOS-Data-Structures-and-Algorithms#chapter-2-set-dictionary-array)
+* [**Complexity**](https://github.com/egorskikh/IOS-Data-Structures-and-Algorithms#complexity)
+* [**Set, Dictionary, Array**](https://github.com/egorskikh/IOS-Data-Structures-and-Algorithms#set-dictionary-array)
 <br> </br>
 > Section II: Elementary Data Structures
 * [**Stack**](https://github.com/egorskikh/IOS-Data-Structures-and-Algorithms#stack) 
@@ -9,7 +9,7 @@
 * [**Queues**](https://github.com/egorskikh/IOS-Data-Structures-and-Algorithms#queues)
 <br> </br>
 > Section III: Trees
-- [**Trees**](https://github.com/egorskikh/IOS-Data-Structures-and-Algorithms#6-three)
+- [**Trees**](https://github.com/egorskikh/IOS-Data-Structures-and-Algorithms#three)
 - Binary Trees
 - Binary Search Trees
 - AVL Trees
