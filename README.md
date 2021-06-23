@@ -1,16 +1,15 @@
 # IOS-Data-Structures-and-Algorithms
-<br> </br>
 > Section I: Introduction
-* [Complexity](https://github.com/egorskikh/IOS-Data-Structures-and-Algorithms#chapter-1-complexity)
-* [Set, Dictionary, Array](https://github.com/egorskikh/IOS-Data-Structures-and-Algorithms#chapter-2-set-dictionary-array)
+* [**Complexity**](https://github.com/egorskikh/IOS-Data-Structures-and-Algorithms#chapter-1-complexity)
+* [**Set, Dictionary, Array**](https://github.com/egorskikh/IOS-Data-Structures-and-Algorithms#chapter-2-set-dictionary-array)
 <br> </br>
 > Section II: Elementary Data Structures
-* [Stack](https://github.com/egorskikh/IOS-Data-Structures-and-Algorithms#chapter-3-stack) 
-* [LinkedList](https://github.com/egorskikh/IOS-Data-Structures-and-Algorithms#chapter-4-linkedlist)
-* [Queues](https://github.com/egorskikh/IOS-Data-Structures-and-Algorithms#chapter-5-queues)
+* [**Stack**](https://github.com/egorskikh/IOS-Data-Structures-and-Algorithms#chapter-3-stack) 
+* [**LinkedList**](https://github.com/egorskikh/IOS-Data-Structures-and-Algorithms#chapter-4-linkedlist)
+* [**Queues**](https://github.com/egorskikh/IOS-Data-Structures-and-Algorithms#chapter-5-queues)
 <br> </br>
 > Section III: Trees
-- [Trees](https://github.com/egorskikh/IOS-Data-Structures-and-Algorithms#chapter-6-three)
+- [**Trees**](https://github.com/egorskikh/IOS-Data-Structures-and-Algorithms#chapter-6-three)
 - Binary Trees
 - Binary Search Trees
 - AVL Trees
@@ -20,10 +19,10 @@
 - Priority Queue
 <br> </br>
 > Section IV: Sorting Algorithms
-- [O(n2) Sorting Algorithms](https://github.com/egorskikh/IOS-Data-Structures-and-Algorithms#chapter-26-on2-sorting)
-- [Merge Sort](https://github.com/egorskikh/IOS-Data-Structures-and-Algorithms#chapter-28-merge-sort)
-- [Radix Sort](https://github.com/egorskikh/IOS-Data-Structures-and-Algorithms/blob/main/README.md#chapter-30-radix-sort)
-- [Heap Sort](https://github.com/egorskikh/IOS-Data-Structures-and-Algorithms/blob/main/README.md#chapter-32-heap-sort)
+- [**O(n2) Sorting Algorithms**](https://github.com/egorskikh/IOS-Data-Structures-and-Algorithms#chapter-26-on2-sorting)
+- [**Merge Sort**](https://github.com/egorskikh/IOS-Data-Structures-and-Algorithms#chapter-28-merge-sort)
+- [**Radix Sort**](https://github.com/egorskikh/IOS-Data-Structures-and-Algorithms/blob/main/README.md#chapter-30-radix-sort)
+- [**Heap Sort**](https://github.com/egorskikh/IOS-Data-Structures-and-Algorithms/blob/main/README.md#chapter-32-heap-sort)
 - Quicksort
 <br> </br>
 > Section V: Graphs
