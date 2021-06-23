@@ -1,7 +1,5 @@
 # IOS-Data-Structures-and-Algorithms
-
-### Content and key points
-
+<br> </br>
 > Section I: Introduction
 * [Complexity](https://github.com/egorskikh/IOS-Data-Structures-and-Algorithms#chapter-1-complexity)
 * [Set, Dictionary, Array](https://github.com/egorskikh/IOS-Data-Structures-and-Algorithms#chapter-2-set-dictionary-array)
@@ -35,7 +33,7 @@
 - Dijkstra’s Algorithm
 - Prim’s Algorithm
 <br> </br>
-# Contents
+# Content and key points
 ## Chapter 1: Complexity
 ### Key points
  - [example](https://github.com/egorskikh/IOS-Data-Structures-and-Algorithms/blob/main/Section%201.%20Introduction/1.%20Complexity/Complexity.swift)
@@ -114,3 +112,4 @@ dequeue (_ :) временная сложность до амортизиров�
 ### Key points
 - [example](https://github.com/egorskikh/IOS-Data-Structures-and-Algorithms/tree/main/Section%204.%20Sorting%20Algorithms/heap-sort/HeapSort.playground)
 - Сортировка кучи использует структуру данных max-heap(максимальной кучи) для сортировки элементов в массиве.
+<br> </br>
