@@ -1,15 +1,15 @@
 # IOS-Data-Structures-and-Algorithms
 > Section I: Introduction
-* [**Complexity**](https://github.com/egorskikh/IOS-Data-Structures-and-Algorithms#chapter-1-complexity)
-* [**Set, Dictionary, Array**](https://github.com/egorskikh/IOS-Data-Structures-and-Algorithms#chapter-2-set-dictionary-array)
+* [**Complexity**](https://github.com/egorskikh/IOS-Data-Structures-and-Algorithms#complexity)
+* [**Set, Dictionary, Array**](https://github.com/egorskikh/IOS-Data-Structures-and-Algorithms#set-dictionary-array)
 <br> </br>
 > Section II: Elementary Data Structures
-* [**Stack**](https://github.com/egorskikh/IOS-Data-Structures-and-Algorithms#chapter-3-stack) 
-* [**LinkedList**](https://github.com/egorskikh/IOS-Data-Structures-and-Algorithms#chapter-4-linkedlist)
-* [**Queues**](https://github.com/egorskikh/IOS-Data-Structures-and-Algorithms#chapter-5-queues)
+* [**Stack**](https://github.com/egorskikh/IOS-Data-Structures-and-Algorithms#stack) 
+* [**LinkedList**](https://github.com/egorskikh/IOS-Data-Structures-and-Algorithms#linkedlist)
+* [**Queues**](https://github.com/egorskikh/IOS-Data-Structures-and-Algorithms#queues)
 <br> </br>
 > Section III: Trees
-- [**Trees**](https://github.com/egorskikh/IOS-Data-Structures-and-Algorithms#chapter-6-three)
+- [**Trees**](https://github.com/egorskikh/IOS-Data-Structures-and-Algorithms#three)
 - Binary Trees
 - Binary Search Trees
 - AVL Trees
@@ -19,10 +19,10 @@
 - Priority Queue
 <br> </br>
 > Section IV: Sorting Algorithms
-- [**O(n2) Sorting Algorithms**](https://github.com/egorskikh/IOS-Data-Structures-and-Algorithms#chapter-26-on2-sorting)
-- [**Merge Sort**](https://github.com/egorskikh/IOS-Data-Structures-and-Algorithms#chapter-28-merge-sort)
-- [**Radix Sort**](https://github.com/egorskikh/IOS-Data-Structures-and-Algorithms/blob/main/README.md#chapter-30-radix-sort)
-- [**Heap Sort**](https://github.com/egorskikh/IOS-Data-Structures-and-Algorithms/blob/main/README.md#chapter-32-heap-sort)
+- [**O(n2) Sorting Algorithms**](https://github.com/egorskikh/IOS-Data-Structures-and-Algorithms#on2-sorting)
+- [**Merge Sort**](https://github.com/egorskikh/IOS-Data-Structures-and-Algorithms#merge-sort)
+- [**Radix Sort**](https://github.com/egorskikh/IOS-Data-Structures-and-Algorithms/blob/main/README.md#radix-sort)
+- [**Heap Sort**](https://github.com/egorskikh/IOS-Data-Structures-and-Algorithms/blob/main/README.md#heap-sort)
 - Quicksort
 <br> </br>
 > Section V: Graphs
@@ -33,7 +33,7 @@
 - Prim’s Algorithm
 <br> </br>
 # Content and key points
-## Chapter 1: Complexity
+## **Complexity**
 ### Key points
  - [example](https://github.com/egorskikh/IOS-Data-Structures-and-Algorithms/blob/main/Section%201.%20Introduction/1.%20Complexity/Complexity.swift)
 * Сложность времени - это мера времени, необходимого для запуска алгоритма при увеличении размера входных данных.
@@ -43,20 +43,20 @@
 * Сложность во времени и пространстве - это высокоуровневые меры масштабируемости; они не измеряют фактическую скорость самого алгоритма.
 * Для небольших наборов данных временная сложность обычно не имеет значения. Квазилинейный алгоритм может быть медленнее линейного алгоритма.
 <br> </br>
-## Chapter 2: Set, Dictionary, Array
+## **Set, Dictionary, Array**
 ### Key points
 * Такие функции, как insert (at :) для Array, обладают характеристиками производительности, которые могут снизить производительность при случайном использовании. Если вам нужно часто использовать insert (at :) с индексами в начале массива, вы можете рассмотреть другую структуру данных, такую как связанный список.
 * Dictionary лишен возможности поддерживать порядок своих элементов для быстрой вставки и поиска.
 * Set гарантирует уникальность набора значений. Набор оптимизирован по скорости и лишен возможности сохранять порядок элементов.
 <br> </br>
-## Chapter 3: Stack
+## **Stack**
 ### Key points
 - [example](https://github.com/egorskikh/IOS-Data-Structures-and-Algorithms/blob/main/Section%202.%20Elementary%20Data%20Structures/2.%20Stacks/Stacks.playground/Sources/Stack.swift)
 * Стек - это структура данных LIFO, принцип «последний пришел - первый ушел».
 * Несмотря на свою простоту, стек является ключевой структурой данных для многих проблем.
 * Единственные две важные операции для стека - это метод push для добавления элементов и метод pop для удаления элементов.
 <br> </br>
-## Chapter 4: LinkedList 
+## **LinkedList** 
 ### Key points
  - [example](https://github.com/egorskikh/IOS-Data-Structures-and-Algorithms/blob/main/Section%202.%20Elementary%20Data%20Structures/3.%20LinkedList/LinkedList.playground/Sources/LinkedList.swift)
 * Связанные списки бывают линейными и однонаправленными. Как только вы переместите ссылку с одного узла на другой, вы не сможете вернуться назад.
@@ -64,7 +64,7 @@
 * Соответствие протоколам сбора Swift, таким как Sequence и Collection, предлагает множество полезных методов для довольно небольшого количества требований.
 * Поведение копирования при записи позволяет достичь семантики значения.
 <br> </br>
-## Chapter 5: Queues
+## **Queues**
 ### Key points
  - [example](https://github.com/egorskikh/IOS-Data-Structures-and-Algorithms/blob/main/Section%202.%20Elementary%20Data%20Structures/4.%20Queues/Queue.playground/Sources/Queue.swift)
 * Очередь использует стратегию FIFO, элемент, добавленный первым, также должен быть сначала удален.
@@ -76,7 +76,7 @@
 dequeue (_ :) временная сложность до амортизированной операции O (1).
 * Реализация двойного стека превосходит Linked-list с точки зрения пространственной локализации.
 <br> </br>
-## Chapter 6: Three
+## **Three**
 ### Key points
 - [example](https://github.com/egorskikh/IOS-Data-Structures-and-Algorithms/tree/main/Section%203.%20Threes/10-general-purpose-tree/GeneralPurposeTree.playground)
 
@@ -88,26 +88,26 @@ dequeue (_ :) временная сложность до амортизиров�
 * Хорошо разбирайтесь в терминологии дерева, такой как родительский, дочерний, листовой и корневой. Многие из этих терминов являются общим языком для коллег-программистов и будут использоваться для объяснения других древовидных структур.
 * Обходы, такие как обходы в глубину и в порядке уровней, не относятся к общему дереву. Они работают и с другими деревьями, хотя их реализация будет немного отличаться в зависимости от структуры дерева.
 <br> </br>
-## Chapter 26: O(n2) Sorting
+## **O(n2) Sorting**
 ### Key points
 - [example](https://github.com/egorskikh/IOS-Data-Structures-and-Algorithms/tree/main/Section%204.%20Sorting%20Algorithms/26-n-2-sorting/n-2-sorting.playground)
 - Алгоритмы n2 часто имеют плохую репутацию, но некоторые из этих алгоритмов обычно имеют определенные преимущества. InsertSort может выполнять сортировку за O (n) раз, если коллекция уже отсортирована, и постепенно уменьшается до O (n2).
 - InsertSort - один из лучших способов сортировки в ситуациях, когда вы заранее знаете, что ваши данные в основном находятся в отсортированном порядке.
 <br> </br>
-## Chapter 28: Merge Sort
+## **Merge Sort**
 ### Key points
 - [example](https://github.com/egorskikh/IOS-Data-Structures-and-Algorithms/tree/main/Section%204.%20Sorting%20Algorithms/merge-sort/merge-sort.playground)
 - Сортировка слиянием относится к категории алгоритмов «разделяй и властвуй».
 - Существует множество реализаций сортировки слиянием, и вы можете иметь разные характеристики производительности в зависимости от реализации.
 <br> </br>
-## Chapter 30: Radix Sort
+## **Radix Sort**
 ### Key points
 - [example](https://github.com/egorskikh/IOS-Data-Structures-and-Algorithms/tree/main/Section%204.%20Sorting%20Algorithms/radix-sort/RadixSort.playground)
 - Радиксная сортировка - это несравнительная сортировка, которая не основывается на сравнении двух значений. Сортировка Radix использует сегментную сортировку, которая похожа на решето для фильтрации значений. Полезная аналогия - это то, как некоторые торговые автоматы принимают монеты - монеты различаются по размеру.
 - Radix sort может быть одним из самых быстрых алгоритмов сортировки для сортировки значений с позиционным обозначением.
 - В этой главе описана сортировка по основанию счисления младших разрядов. Другой способ реализовать сортировку по системе счисления - это форма старших цифр. Эта форма сортирует, отдавая приоритет наиболее значимым цифрам над меньшими, и лучше всего иллюстрируется поведением сортировки типа String.
 <br> </br>
-## Chapter 32: Heap Sort
+## **Heap Sort**
 ### Key points
 - [example](https://github.com/egorskikh/IOS-Data-Structures-and-Algorithms/tree/main/Section%204.%20Sorting%20Algorithms/heap-sort/HeapSort.playground)
 - Сортировка кучи использует структуру данных max-heap(максимальной кучи) для сортировки элементов в массиве.
