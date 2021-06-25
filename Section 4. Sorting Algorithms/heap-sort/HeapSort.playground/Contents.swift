@@ -116,18 +116,19 @@ struct Heap<Element: Equatable> {
     }
     
     func index(of element: Element, startingAt i: Int) -> Int? {
-        if i >= count {
-            return nil
-        }
-        if sort(element, elements[i]) {
-            return nil
-        }
+        
+        if i >= count { return nil }
+        
+        if sort(element, elements[i]) { return nil }
+        
         if element == elements[i] {
             return i
         }
+        
         if let j = index(of: element, startingAt: leftChildIndex(ofParentAt: i)) {
             return j
         }
+        
         if let j = index(of: element, startingAt: rightChildIndex(ofParentAt: i)) {
             return j
         }
@@ -136,3 +137,43 @@ struct Heap<Element: Equatable> {
     }
     
 }
+
+
+
+
+extension Heap {
+    
+    func sorted() -> [Element] {
+        
+        /*
+         Вы сначала делаете копию кучи. После сортировки кучи массив элементов больше не является допустимой кучей.
+         Работая с копией кучи, вы гарантируете, что куча останется действительной.
+         */
+        var heap = Heap(sort: sort, elements: elements)
+        
+        /*
+         Вы просматриваете массив, начиная с последнего элемента.
+         */
+        for index in heap.elements.indices.reversed() {
+            
+            /*
+             Вы меняете местами первый элемент и последний элемент.
+             Это перемещает самый большой неотсортированный элемент на его правильное место.
+             */
+            heap.elements.swapAt(0, index)
+            
+            /*
+             Поскольку куча теперь недействительна, вы должны отсеять новый корневой узел.
+             В результате следующий по величине элемент станет новым корнем.
+             */
+            heap.siftDown(from: 0, upTo: index)
+        }
+        
+        return heap.elements
+    }
+    
+}
+
+let heap = Heap(sort: >, elements: [6, 12, 2, 26, 8, 18, 21, 9, 5])
+
+print(heap.sorted()) // [2, 5, 6, 8, 9, 12, 18, 21, 26]
