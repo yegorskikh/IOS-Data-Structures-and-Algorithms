@@ -23,7 +23,7 @@
 - [**Merge Sort**](https://github.com/egorskikh/IOS-Data-Structures-and-Algorithms#merge-sort)
 - [**Radix Sort**](https://github.com/egorskikh/IOS-Data-Structures-and-Algorithms/blob/main/README.md#radix-sort)
 - [**Heap Sort**](https://github.com/egorskikh/IOS-Data-Structures-and-Algorithms/blob/main/README.md#heap-sort)
-- Quicksort
+- [**Quick Sort**](https://github.com/egorskikh/IOS-Data-Structures-and-Algorithms/blob/main/README.md#quick-sort)
 <br> </br>
 > Section V: Graphs
 - Graphs
@@ -112,3 +112,13 @@ dequeue (_ :) временная сложность до амортизиров�
 - [example](https://github.com/egorskikh/IOS-Data-Structures-and-Algorithms/tree/main/Section%204.%20Sorting%20Algorithms/heap-sort/HeapSort.playground)
 - Сортировка кучи использует структуру данных max-heap(максимальной кучи) для сортировки элементов в массиве.
 <br> </br>
+## **Quick Sort**
+### Key points
+- [example](https://github.com/egorskikh/IOS-Data-Structures-and-Algorithms/tree/main/Section%204.%20Sorting%20Algorithms/quick-sort/quicksort.playground)
+- Наивное разбиение создает новый массив для каждой функции фильтра; это неэффективно. Все остальные стратегии действуют.
+- При разбиении Lomuto’s последний элемент выбирается в качестве опорного.
+- При разбиении Hoare’s в качестве стержня выбирается первый элемент.
+- Идеальная опора могла бы равномерно разделить элементы между перегородками.
+- Выбор плохого поворота может привести к выполнению быстрой сортировки за O(n2).
+- Median of three находит точку поворота, беря медианы первого, среднего и последнего элементов.
+- Стратегия разделения голландского национального флага помогает более эффективно организовать повторяющиеся элементы.
