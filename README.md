@@ -1,5 +1,5 @@
 # IOS-Data-Structures-and-Algorithms
-## Table of Contents: Overview:
+## Table of Contents: Overview
 > Section I: Introduction
 * [**Complexity**](https://github.com/egorskikh/IOS-Data-Structures-and-Algorithms#complexity)
 * [**Set, Dictionary, Array**](https://github.com/egorskikh/IOS-Data-Structures-and-Algorithms#set-dictionary-array)
