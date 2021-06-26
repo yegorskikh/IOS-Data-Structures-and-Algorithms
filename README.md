@@ -34,7 +34,6 @@
 - Prim’s Algorithm
 <br> </br>
 ## Table of Contents: Extended
-<br> </br>
 ## **Complexity**
 ### Key points
  - [example](https://github.com/egorskikh/IOS-Data-Structures-and-Algorithms/blob/main/Section%201.%20Introduction/1.%20Complexity/Complexity.swift)
