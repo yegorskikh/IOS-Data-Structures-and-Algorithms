@@ -1,4 +1,5 @@
 # IOS-Data-Structures-and-Algorithms
+## Table of Contents: Overview:
 > Section I: Introduction
 * [**Complexity**](https://github.com/egorskikh/IOS-Data-Structures-and-Algorithms#complexity)
 * [**Set, Dictionary, Array**](https://github.com/egorskikh/IOS-Data-Structures-and-Algorithms#set-dictionary-array)
@@ -32,7 +33,8 @@
 - Dijkstra’s Algorithm
 - Prim’s Algorithm
 <br> </br>
-# Content and key points
+## Table of Contents: Extended
+<br> </br>
 ## **Complexity**
 ### Key points
  - [example](https://github.com/egorskikh/IOS-Data-Structures-and-Algorithms/blob/main/Section%201.%20Introduction/1.%20Complexity/Complexity.swift)
