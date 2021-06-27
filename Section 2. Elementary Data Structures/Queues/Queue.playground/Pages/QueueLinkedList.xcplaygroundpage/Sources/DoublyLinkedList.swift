@@ -74,14 +74,18 @@ public class DoublyLinkedList<T> {
 extension DoublyLinkedList: CustomStringConvertible {
     
     public var description: String {
+        
         var string = ""
         var current = head
+        
         while let node = current {
             string.append("\(node.value) -> ")
             current = node.next
         }
+        
         return string + "end"
     }
+    
 }
 
 public class LinkedListIterator<T>: IteratorProtocol {
@@ -103,4 +107,5 @@ extension DoublyLinkedList: Sequence {
     public func makeIterator() -> LinkedListIterator<T> {
         LinkedListIterator(node: head)
     }
+    
 }
