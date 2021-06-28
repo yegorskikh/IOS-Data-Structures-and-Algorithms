@@ -27,7 +27,9 @@ extension TreeNode {
 extension TreeNode {
     
     public func forEachLevelOrder(visit: (TreeNode) -> Void) {
+        
         visit(self)
+        
         var queue = Queue<TreeNode>()
         children.forEach { queue.enqueue($0) }
         
@@ -42,7 +44,9 @@ extension TreeNode {
 extension TreeNode where T: Equatable {
     
     public func search(_ value: T) -> TreeNode? {
+        
         var result: TreeNode?
+        
         forEachLevelOrder { node in
             if node.value == value {
                 result = node
@@ -50,5 +54,5 @@ extension TreeNode where T: Equatable {
         }
         return result
     }
-    
+        
 }
