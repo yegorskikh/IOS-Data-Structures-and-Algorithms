@@ -34,3 +34,11 @@ example(of: "pre-order traversal") {
 example(of: "post-order traversal") {
     tree.traversePostOrder { print($0) }
 }
+
+
+
+example(of: "Challenge 1: Height of a Tree") {
+    print(height(of: tree))
+}
+
+
