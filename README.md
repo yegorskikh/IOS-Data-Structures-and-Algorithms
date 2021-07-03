@@ -16,7 +16,7 @@
 - [**Trees**](https://github.com/egorskikh/IOS-Data-Structures-and-Algorithms#three)
 - [**Binary Trees**](https://github.com/egorskikh/IOS-Data-Structures-and-Algorithms#binary-trees)
 - [Binary Search Trees](https://github.com/egorskikh/IOS-Data-Structures-and-Algorithms#binary-search-trees)
-- AVL Trees
+- [AVL Trees](https://github.com/egorskikh/IOS-Data-Structures-and-Algorithms#avl-trees)
 - Tries
 - Binary Search
 - The Heap Data Structure
@@ -120,6 +120,10 @@ dequeue (_ :) временная сложность до амортизиров�
 
 ## **AVL Trees**
 ### Key points
+- [example](https://github.com/egorskikh/IOS-Data-Structures-and-Algorithms/tree/main/Section%203.%20Threes/avl-tree/avl-tree.playground)
+- Самобалансирующееся дерево позволяет избежать снижения производительности за счет выполнения процедуры балансировки всякий раз, когда вы добавляете или удаляете элементы в дереве.
+- Деревья AVL сохраняют баланс за счет корректировки частей дерева, когда дерево больше не сбалансировано.
+- Баланс достигается четырьмя типами вращения дерева при вставке и удалении узла.
 <br> </br>
 
 ## **Tries**
