@@ -17,7 +17,7 @@
 - [**Binary Trees**](https://github.com/egorskikh/IOS-Data-Structures-and-Algorithms#binary-trees)
 - [Binary Search Trees](https://github.com/egorskikh/IOS-Data-Structures-and-Algorithms#binary-search-trees)
 - [AVL Trees](https://github.com/egorskikh/IOS-Data-Structures-and-Algorithms#avl-trees)
-- Tries
+- [Tries](https://github.com/egorskikh/IOS-Data-Structures-and-Algorithms/blob/main/README.md#tries)
 - Binary Search
 - The Heap Data Structure
 - Priority Queue
@@ -128,6 +128,9 @@ dequeue (_ :) временная сложность до амортизиров�
 
 ## **Tries**
 ### Key points
+- [example](https://github.com/egorskikh/IOS-Data-Structures-and-Algorithms/tree/main/Section%203.%20Threes/tries/Trie.playground)
+- Попытки обеспечивают отличные показатели производительности в отношении сопоставления префиксов.
+- Попытки относительно эффективны с точки зрения памяти, поскольку отдельные узлы могут использоваться несколькими разными значениями. Например, первые три буквы слова могут быть одинаковыми для слов «car», «carbs» и «care».
 <br> </br>
 
 ## **Binary Search**
