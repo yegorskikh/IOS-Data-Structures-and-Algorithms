@@ -19,7 +19,7 @@
 - [**AVL Trees**](https://github.com/egorskikh/IOS-Data-Structures-and-Algorithms#avl-trees)
 - [**Tries**](https://github.com/egorskikh/IOS-Data-Structures-and-Algorithms/blob/main/README.md#tries)
 - [**Binary Search**](https://github.com/egorskikh/IOS-Data-Structures-and-Algorithms#binary-search)
-- The Heap Data Structure
+- [**The Heap Data Structure**](https://github.com/egorskikh/IOS-Data-Structures-and-Algorithms#the-heap-data-structure)
 - Priority Queue
 <br> </br>
 
@@ -143,6 +143,18 @@ dequeue (_ :) временная сложность до амортизиров�
 
 ## **The Heap Data Structure**
 ### Key points
+- [example](https://github.com/egorskikh/IOS-Data-Structures-and-Algorithms/tree/main/Section%203.%20Threes/heap/heap.playground)
+- Вот сводка алгоритмической сложности операций с кучей, которые вы реализовали в этой главе:
+
+| Operations | Time Complexity | 
+| ------------- | ------------- | 
+| remove | O(log n) | 
+| insert | O(log n) |
+| search | O(n) | 
+| peak | O(1) |
+
+- Структура данных кучи хороша для поддержания элемента с наивысшим или самым низким приоритетом.
+- Каждый раз, когда вы вставляете или удаляете элементы из кучи, вы должны проверять, удовлетворяет ли он правилам приоритета.
 <br> </br>
 
 ## **Priority Queue**
