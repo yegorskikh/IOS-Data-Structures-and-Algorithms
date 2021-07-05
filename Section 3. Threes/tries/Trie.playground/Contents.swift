@@ -45,3 +45,13 @@ example(of: "prefix matching") {
     let prefixedWithCare = trie.collections(startingWith: "care")
     print(prefixedWithCare)
 }
+
+example(of: "Count && isEmpty") {
+    let trie = Trie<String>()
+    trie.insert("car")
+    trie.insert("card")
+    trie.insert("care")
+
+    trie.count // 3
+    trie.isEmpty // false
+}
