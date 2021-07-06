@@ -179,11 +179,6 @@ This repository was written based on this book.
 <br> </br>
 
 ## **O(n2) Sorting**
-### Key points
-- Алгоритмы **n2** часто имеют плохую репутацию, но некоторые из этих алгоритмов обычно имеют определенные преимущества. **InsertSort** может выполнять сортировку за **O(n)** раз, если коллекция уже отсортирована, и постепенно уменьшается до **O(n2)**.
-- **InsertSort** - один из лучших способов сортировки в ситуациях, когда вы заранее знаете, что ваши данные в основном находятся в отсортированном порядке.
-<br> </br>
-## **Merge Sort**
 
 | Sorting | implementation | 
 | ------------- | ------------- | 
@@ -191,6 +186,11 @@ This repository was written based on this book.
 | Insertion Sort | [example](https://github.com/egorskikh/IOS-Data-Structures-and-Algorithms/blob/main/Section%204.%20Sorting%20Algorithms/n-2-sorting/n-2-sorting.playground/Sources/InsertionSort.swift) |
 | Selection Sort | [example](https://github.com/egorskikh/IOS-Data-Structures-and-Algorithms/blob/main/Section%204.%20Sorting%20Algorithms/n-2-sorting/n-2-sorting.playground/Sources/SelectionSort.swift) | 
 
+### Key points
+- Алгоритмы **n2** часто имеют плохую репутацию, но некоторые из этих алгоритмов обычно имеют определенные преимущества. **InsertSort** может выполнять сортировку за **O(n)** раз, если коллекция уже отсортирована, и постепенно уменьшается до **O(n2)**.
+- **InsertSort** - один из лучших способов сортировки в ситуациях, когда вы заранее знаете, что ваши данные в основном находятся в отсортированном порядке.
+<br> </br>
+## **Merge Sort**
 ### Key points
 - [implementation](https://github.com/egorskikh/IOS-Data-Structures-and-Algorithms/tree/main/Section%204.%20Sorting%20Algorithms/merge-sort/merge-sort.playground)
 - Сортировка слиянием относится к категории алгоритмов **«разделяй и властвуй»**.
