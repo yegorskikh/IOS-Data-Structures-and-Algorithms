@@ -152,11 +152,8 @@ This repository was written based on this book.
 <br> </br>
 
 ## **The Heap Data Structure**
-### Key points
-- [implementation](https://github.com/egorskikh/IOS-Data-Structures-and-Algorithms/blob/main/Section%203.%20Threes/heap/heap.playground/Sources/Heap.swift)
-- Структура данных кучи хороша для поддержания элемента с наивысшим или самым низким приоритетом.
-- Каждый раз, когда вы вставляете или удаляете элементы из кучи, вы должны проверять, удовлетворяет ли он правилам приоритета.
-- Вот сводка алгоритмической сложности операций с кучей, которые вы реализовали в этой главе:
+
+Вот сводка алгоритмической сложности операций с кучей, которые мы реализовали в этой главе:
 
 | Operations | Time Complexity | 
 | ------------- | ------------- | 
@@ -164,6 +161,11 @@ This repository was written based on this book.
 | insert | **O(log n)** |
 | search | **O(n)** | 
 | peak | **O(1)** |
+
+### Key points
+- [implementation](https://github.com/egorskikh/IOS-Data-Structures-and-Algorithms/blob/main/Section%203.%20Threes/heap/heap.playground/Sources/Heap.swift)
+- Структура данных кучи хороша для поддержания элемента с наивысшим или самым низким приоритетом.
+- Каждый раз, когда вы вставляете или удаляете элементы из кучи, вы должны проверять, удовлетворяет ли он правилам приоритета.
 
 <br> </br>
 
@@ -182,16 +184,17 @@ This repository was written based on this book.
 - **InsertSort** - один из лучших способов сортировки в ситуациях, когда вы заранее знаете, что ваши данные в основном находятся в отсортированном порядке.
 <br> </br>
 ## **Merge Sort**
-### Key points
-- [implementation](https://github.com/egorskikh/IOS-Data-Structures-and-Algorithms/tree/main/Section%204.%20Sorting%20Algorithms/merge-sort/merge-sort.playground)
-- Сортировка слиянием относится к категории алгоритмов **«разделяй и властвуй»**.
-- Существует множество реализаций сортировки слиянием, и вы можете иметь разные характеристики производительности в зависимости от реализации.
 
 | Sorting | implementation | 
 | ------------- | ------------- | 
 | Bubble Sort | [example](https://github.com/egorskikh/IOS-Data-Structures-and-Algorithms/blob/main/Section%204.%20Sorting%20Algorithms/n-2-sorting/n-2-sorting.playground/Sources/BubbleSort.swift) | 
 | Insertion Sort | [example](https://github.com/egorskikh/IOS-Data-Structures-and-Algorithms/blob/main/Section%204.%20Sorting%20Algorithms/n-2-sorting/n-2-sorting.playground/Sources/InsertionSort.swift) |
 | Selection Sort | [example](https://github.com/egorskikh/IOS-Data-Structures-and-Algorithms/blob/main/Section%204.%20Sorting%20Algorithms/n-2-sorting/n-2-sorting.playground/Sources/SelectionSort.swift) | 
+
+### Key points
+- [implementation](https://github.com/egorskikh/IOS-Data-Structures-and-Algorithms/tree/main/Section%204.%20Sorting%20Algorithms/merge-sort/merge-sort.playground)
+- Сортировка слиянием относится к категории алгоритмов **«разделяй и властвуй»**.
+- Существует множество реализаций сортировки слиянием, и вы можете иметь разные характеристики производительности в зависимости от реализации.
 
 <br> </br>
 
@@ -210,14 +213,6 @@ This repository was written based on this book.
 <br> </br>
 
 ## **Quick Sort**
-### Key points
-- Наивное разбиение создает новый массив для каждой функции фильтра; это неэффективно. Все остальные стратегии действуют.
-- При разбиении **Lomuto’s** последний элемент выбирается в качестве опорного.
-- При разбиении **Hoare’s** в качестве стержня выбирается первый элемент.
-- Идеальная опора могла бы равномерно разделить элементы между перегородками.
-- Выбор плохого поворота может привести к выполнению быстрой сортировки за **O(n2)**.
-- **Median of three** находит точку поворота, беря медианы первого, среднего и последнего элементов.
-- Стратегия разделения голландского национального флага помогает более эффективно организовать повторяющиеся элементы.
 
 | Sorting | implementation | 
 | ------------- | ------------- | 
@@ -227,7 +222,17 @@ This repository was written based on this book.
 | Naive | [example](https://github.com/egorskikh/IOS-Data-Structures-and-Algorithms/blob/main/Section%204.%20Sorting%20Algorithms/quick-sort/quicksort.playground/Sources/quicksortNaive.swift) | 
 | Dutch Flag | [example](https://github.com/egorskikh/IOS-Data-Structures-and-Algorithms/blob/main/Section%204.%20Sorting%20Algorithms/quick-sort/quicksort.playground/Sources/quicksortDutchFlag.swift) | 
 
+### Key points
+- Наивное разбиение создает новый массив для каждой функции фильтра; это неэффективно. Все остальные стратегии действуют.
+- При разбиении **Lomuto’s** последний элемент выбирается в качестве опорного.
+- При разбиении **Hoare’s** в качестве стержня выбирается первый элемент.
+- Идеальная опора могла бы равномерно разделить элементы между перегородками.
+- Выбор плохого поворота может привести к выполнению быстрой сортировки за **O(n2)**.
+- **Median of three** находит точку поворота, беря медианы первого, среднего и последнего элементов.
+- Стратегия разделения голландского национального флага помогает более эффективно организовать повторяющиеся элементы.
+
 <br> </br>
+
 ## **Graphs**
 ### Key points
 <br> </br>
