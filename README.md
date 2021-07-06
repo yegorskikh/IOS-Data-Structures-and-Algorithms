@@ -44,10 +44,10 @@ This repository was written based on this book.
 
 > Section V: Graphs
 - [Graphs](https://github.com/egorskikh/IOS-Data-Structures-and-Algorithms#graphs)
-- Breadth-First Search
-- Depth-First Search
-- Dijkstra’s Algorithm
-- Prim’s Algorithm
+- [Breadth-First Search](https://github.com/egorskikh/IOS-Data-Structures-and-Algorithms#breadth-first-search)
+- [Depth-First Search](https://github.com/egorskikh/IOS-Data-Structures-and-Algorithms#depth-first-search)
+- [Dijkstra’s Algorithm](https://github.com/egorskikh/IOS-Data-Structures-and-Algorithms#dijkstras-algorithm)
+- [Prim’s Algorithm](https://github.com/egorskikh/IOS-Data-Structures-and-Algorithms#prims-algorithm)
 <br> </br>
 
 ## Table of Contents: Extended
@@ -230,7 +230,6 @@ This repository was written based on this book.
 - Выбор плохого поворота может привести к выполнению быстрой сортировки за **O(n2)**.
 - **Median of three** находит точку поворота, беря медианы первого, среднего и последнего элементов.
 - Стратегия разделения голландского национального флага помогает более эффективно организовать повторяющиеся элементы.
-
 <br> </br>
 
 ## **Graphs**
@@ -254,14 +253,38 @@ This repository was written based on this book.
 - Список смежности обычно хорош для разреженных графов, когда ваш граф имеет наименьшее количество ребер.
 - Матрица смежности обычно хороша для плотных графов, когда у вашего графа много ребер.
 <br> </br>
+
 ## **Breadth-First Search**
 ### Key points
+- [implementation]()
+- Поиск в ширину (BFS) - это алгоритм обхода или поиска по графу.
+- BFS исследует всех соседей текущей вершины перед переходом на следующий уровень вершин.
+- Как правило, этот алгоритм хорошо использовать, когда структура вашего графа имеет много соседних вершин или когда вам нужно выяснить все возможные результаты.
+- Структура данных очереди используется для определения приоритета прохождения соседних ребер вершины перед погружением на уровень глубже.
 <br> </br>
+
 ## **Depth-First Search**
 ### Key points
+- [implementation]()
+- Поиск в глубину (DFS) - это еще один алгоритм для обхода или поиска по графу.
+- DFS исследует ветку, насколько это возможно, до конца.
+- Используйте стековую структуру данных, чтобы отслеживать, насколько глубоко вы находитесь на графике. Выскакивайте из стека, только когда заходите в тупик.
 <br> </br>
+
 ## **Dijkstra’s Algorithm**
 ### Key points
+- [implementation]()
+- Алгоритм Дейкстры находит путь к остальным узлам с учетом начальной вершины.
+- Этот алгоритм полезен для поиска кратчайших путей между разными конечными точками.
+- Состояние посещения используется для отслеживания ребер до начальной вершины.
+- Структура данных очереди приоритетов помогает всегда возвращать вершину с
+кратчайший путь.
+- Следовательно, это жадный алгоритм!
 <br> </br>
+
 ## **Prim’s Algorithm**
 ### Key points
+- [implementation]()
+- Остовное дерево - это подграф неориентированного графа, который содержит все вершины с наименьшим числом ребер.
+- Алгоритм Прима - это жадный алгоритм, который строит минимальное остовное дерево.
+- Вы можете использовать три разные структуры данных: очередь приоритетов, наборы и списки смежности для построения алгоритма Прима.
