@@ -11,11 +11,11 @@ public struct PriorityQueue<Element: Equatable>: Queue {
     
     private var heap: Heap<Element> // 2
     
-    var isEmpty: Bool {
+    public var isEmpty: Bool {
         heap.isEmpty
     }
     
-    var peek: Element? {
+    public var peek: Element? {
         heap.peek()
     }
     
@@ -28,7 +28,7 @@ public struct PriorityQueue<Element: Equatable>: Queue {
      Из предыдущей главы вы должны понимать, что, вызывая enqueue (_ :), вы просто вставляете в кучу,
      и куча будет просеиваться, чтобы проверить себя. Общая сложность enqueue(_ :) равна O(log n).
      */
-    mutating func enqueue(_ element: Element) -> Bool {
+    mutating public func enqueue(_ element: Element) -> Bool {
         heap.insert(element)
         return true
     }
@@ -37,7 +37,7 @@ public struct PriorityQueue<Element: Equatable>: Queue {
      Вызывая dequeue (_ :), вы удаляете корневой элемент из кучи, заменяя его последним элементом в куче,
      а затем просеиваете его для проверки кучи. Общая сложность dequeue() составляет O(log n).
      */
-    mutating func dequeue() -> Element? { // 2
+    mutating public func dequeue() -> Element? { // 2
         heap.remove()
     }
     
