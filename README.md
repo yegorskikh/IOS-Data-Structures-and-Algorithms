@@ -43,7 +43,7 @@ This repository was written based on this book.
 <br> </br>
 
 > Section V: Graphs
-- Graphs
+- [Graphs](https://github.com/egorskikh/IOS-Data-Structures-and-Algorithms#graphs)
 - Breadth-First Search
 - Depth-First Search
 - Dijkstra’s Algorithm
@@ -234,7 +234,25 @@ This repository was written based on this book.
 <br> </br>
 
 ## **Graphs**
+
+| Operations | Adjacency List | Adjacency Matrix |
+| ------------- | ------------- | ------------- | 
+| Storage Space | **O(V+E)** | **O(V^2)** |  
+| Add Vertex | **O(1)** | **O(V^2)** |
+| Add Edge | **O(1)** | **O(1)** |
+| Finding Edges and Weight | **O(V)** | **O(1)** |
+
 ### Key points
+- [implementation](https://github.com/egorskikh/IOS-Data-Structures-and-Algorithms/tree/main/Section%205.%20Graphs/graphs/Graph.playground/Sources)
+- Вы можете представить отношения в реальном мире через вершины и ребра.
+- Думайте о вершинах как об объектах, а о ребрах как о взаимосвязях между объектами.
+- Взвешенные графы связывают вес с каждым ребром.
+- Направленные графы имеют ребра, которые пересекаются в одном направлении.
+- Ненаправленные графы имеют ребра, указывающие в обе стороны.
+- В списке смежности хранится список исходящих ребер для каждой вершины.
+- Матрица смежности использует квадратную матрицу для представления графика.
+- Список смежности обычно хорош для разреженных графов, когда ваш граф имеет наименьшее количество ребер.
+- Матрица смежности обычно хороша для плотных графов, когда у вашего графа много ребер.
 <br> </br>
 ## **Breadth-First Search**
 ### Key points
