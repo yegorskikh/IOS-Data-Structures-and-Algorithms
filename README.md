@@ -1,4 +1,15 @@
 # IOS-Data-Structures-and-Algorithms
+
+<p align='center'>
+This repository was written based on this book.
+<p align='center'>
+</p>
+<p align='center'>
+ <a href='https://www.raywenderlich.com/books/data-structures-algorithms-in-swift' target="_blank">
+    <img src="https://img.shields.io/badge/Data Structures and Algorithms-9cf"/>
+<p align='center'>
+</p>
+
 ## Table of Contents: Overview
 
 > Section I: Introduction
@@ -20,7 +31,7 @@
 - [**Tries**](https://github.com/egorskikh/IOS-Data-Structures-and-Algorithms/blob/main/README.md#tries)
 - [**Binary Search**](https://github.com/egorskikh/IOS-Data-Structures-and-Algorithms#binary-search)
 - [**The Heap Data Structure**](https://github.com/egorskikh/IOS-Data-Structures-and-Algorithms#the-heap-data-structure)
-- Priority Queue
+- [**Priority Queue**](https://github.com/egorskikh/IOS-Data-Structures-and-Algorithms#priority-queue)
 <br> </br>
 
 > Section IV: Sorting Algorithms
@@ -159,6 +170,12 @@ dequeue (_ :) временная сложность до амортизиров�
 
 ## **Priority Queue**
 ### Key points
+- [example](https://github.com/egorskikh/IOS-Data-Structures-and-Algorithms/tree/main/Section%203.%20Threes/priority-queue/PriorityQueue.playground)
+- Очередь с приоритетом часто используется для поиска элемента в порядке приоритета.
+- Он создает уровень абстракции, фокусируясь на ключевых операциях очереди и
+исключая дополнительные функции, предоставляемые структурой данных кучи.
+- Это делает цель очереди приоритетов ясной и лаконичной. Его единственная задача - **поставить в очередь
+и удалять элементы из очереди**, ничего больше!
 <br> </br>
 
 ## **O(n2) Sorting**
