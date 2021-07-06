@@ -53,7 +53,7 @@ This repository was written based on this book.
 ## Table of Contents: Extended
 ## **Complexity**
 ### Key points
- - [implementation](https://github.com/egorskikh/IOS-Data-Structures-and-Algorithms/blob/main/Section%201.%20Introduction/1.%20Complexity/Complexity.swift)
+ - [implementation](https://github.com/egorskikh/https://github.com/egorskikh/IOS-Data-Structures-and-Algorithms/blob/main/Section%201.%20Introduction/Complexity/Complexity.swift)
 * Сложность времени - это мера времени, необходимого для запуска алгоритма при увеличении размера входных данных.
 * Вы должны знать о постоянном времени, логарифмическом времени, линейном времени, квазилинейном времени и квадратичном времени и уметь упорядочивать их по стоимости.
 * Сложность пространства - это мера ресурсов, необходимых для работы алгоритма.
@@ -71,7 +71,7 @@ This repository was written based on this book.
 
 ## **Stack**
 ### Key points
-- [implementation](https://github.com/egorskikh/IOS-Data-Structures-and-Algorithms/blob/main/Section%202.%20Elementary%20Data%20Structures/2.%20Stacks/Stacks.playground/Sources/Stack.swift)
+- [implementation](https://github.com/egorskikh/IOS-Data-Structures-and-Algorithms/blob/main/Section%202.%20Elementary%20Data%20Structures/Stacks/Stacks.playground/Sources/Stack.swift)
 * Стек - это структура данных LIFO, принцип «последний пришел - первый ушел».
 * Несмотря на свою простоту, стек является ключевой структурой данных для многих проблем.
 * Единственные две важные операции для стека - это метод push для добавления элементов и метод pop для удаления элементов.
@@ -79,7 +79,7 @@ This repository was written based on this book.
 
 ## **LinkedList** 
 ### Key points
- - [implementation](https://github.com/egorskikh/IOS-Data-Structures-and-Algorithms/blob/main/Section%202.%20Elementary%20Data%20Structures/3.%20LinkedList/LinkedList.playground/Sources/LinkedList.swift)
+ - [implementation](https://github.com/egorskikh/IOS-Data-Structures-and-Algorithms/blob/main/Section%202.%20Elementary%20Data%20Structures/LinkedList/LinkedList.playground/Sources/LinkedList.swift)
 * Связанные списки бывают линейными и однонаправленными. Как только вы переместите ссылку с одного узла на другой, вы не сможете вернуться назад.
 * Связанные списки имеют временную сложность O (1) для вставки заголовком. Массивы имеют временную сложность O (n) для вставок заголовком.
 * Соответствие протоколам сбора Swift, таким как Sequence и Collection, предлагает множество полезных методов для довольно небольшого количества требований.
@@ -88,7 +88,7 @@ This repository was written based on this book.
 
 ## **Queues**
 ### Key points
- - [implementation](https://github.com/egorskikh/IOS-Data-Structures-and-Algorithms/blob/main/Section%202.%20Elementary%20Data%20Structures/4.%20Queues/Queue.playground/Sources/Queue.swift)
+ - [implementation](https://github.com/egorskikh/IOS-Data-Structures-and-Algorithms/tree/main/Section%202.%20Elementary%20Data%20Structures/Queues/Queue.playground/Pages)
 * Очередь использует стратегию FIFO, элемент, добавленный первым, также должен быть сначала удален.
 * Enqueue вставляет элемент в конец очереди.
 * Dequeue удаляет элемент в начале очереди.
@@ -101,7 +101,7 @@ dequeue (_ :) временная сложность до амортизиров�
 
 ## **Three**
 ### Key points
-- [implementation](https://github.com/egorskikh/IOS-Data-Structures-and-Algorithms/tree/main/Section%203.%20Threes/10-general-purpose-tree/GeneralPurposeTree.playground)
+- [implementation](https://github.com/egorskikh/IOS-Data-Structures-and-Algorithms/blob/main/Section%203.%20Threes/general-purpose-tree/GeneralPurposeTree.playground/Sources/TreeNode.swift)
 * Деревья имеют некоторое сходство со связанными списками, но, в то время как узлы
 связанного списка могут связываться только с одним узлом-преемником, узел дерева может связываться со многими дочерними узлами.
 * Каждый узел дерева, кроме корневого, имеет ровно один родительский узел.
@@ -113,14 +113,14 @@ dequeue (_ :) временная сложность до амортизиров�
 
 ## **Binary Trees**
 ### Key points
-- [implementation](https://github.com/egorskikh/IOS-Data-Structures-and-Algorithms/tree/main/Section%203.%20Threes/binary-tree/BinaryTrees.playground)
+- [implementation](https://github.com/egorskikh/IOS-Data-Structures-and-Algorithms/blob/main/Section%203.%20Threes/binary-tree/BinaryTrees.playground/Sources/BinaryNode.swift)
 - Бинарное дерево является основой некоторых из наиболее важных древовидных структур. Дерево двоичного поиска и дерево AVL - это двоичные деревья, которые накладывают ограничения на поведение при вставке / удалении.
 - Обходы по порядку, по порядку и после по порядку важны не только для двоичного дерева; если вы обрабатываете данные в каком-либо дереве, вы будете регулярно использовать эти обходы.
 <br> </br>
 
 ## **Binary Search Trees**
 ### Key points
-- [implementation](https://github.com/egorskikh/IOS-Data-Structures-and-Algorithms/blob/main/Section%203.%20Threes/binary-search-tree/BinarySearchTree.playground/Sources/BinarySearchTree.swift)
+- [implementation](https://github.com/egorskikh/IOS-Data-Structures-and-Algorithms/blob/main/Section%203.%20Threes/binary-search/BinarySearch.playground/Sources/BinarySearch.swift)
 - Дерево двоичного поиска - это мощная структура данных для хранения отсортированных данных.
 - Элементы двоичного дерева поиска должны быть сопоставимы. Этого можно достичь, используя
 общее ограничение или путем предоставления замыканий для сравнения.
@@ -131,7 +131,7 @@ dequeue (_ :) временная сложность до амортизиров�
 
 ## **AVL Trees**
 ### Key points
-- [implementation](https://github.com/egorskikh/IOS-Data-Structures-and-Algorithms/tree/main/Section%203.%20Threes/avl-tree/avl-tree.playground)
+- [implementation](https://github.com/egorskikh/IOS-Data-Structures-and-Algorithms/blob/main/Section%203.%20Threes/avl-tree/avl-tree.playground/Sources/AVLTree.swift)
 - Самобалансирующееся дерево позволяет избежать снижения производительности за счет выполнения процедуры балансировки всякий раз, когда вы добавляете или удаляете элементы в дереве.
 - Деревья AVL сохраняют баланс за счет корректировки частей дерева, когда дерево больше не сбалансировано.
 - Баланс достигается четырьмя типами вращения дерева при вставке и удалении узла.
@@ -139,7 +139,7 @@ dequeue (_ :) временная сложность до амортизиров�
 
 ## **Tries**
 ### Key points
-- [implementation](https://github.com/egorskikh/IOS-Data-Structures-and-Algorithms/tree/main/Section%203.%20Threes/tries/Trie.playground)
+- [implementation](https://github.com/egorskikh/IOS-Data-Structures-and-Algorithms/blob/main/Section%203.%20Threes/tries/Trie.playground/Sources/Trie.swift)
 - **Tries** обеспечивают отличные показатели производительности в отношении сопоставления префиксов.
 - **Tries** относительно эффективны с точки зрения памяти, поскольку отдельные узлы могут использоваться несколькими разными значениями. Например, первые три буквы слова могут быть одинаковыми для слов «car», «carbs» и «care».
 <br> </br>
@@ -180,7 +180,6 @@ dequeue (_ :) временная сложность до амортизиров�
 
 ## **O(n2) Sorting**
 ### Key points
-- [implementation](https://github.com/egorskikh/IOS-Data-Structures-and-Algorithms/tree/main/Section%204.%20Sorting%20Algorithms/26-n-2-sorting/n-2-sorting.playground)
 - Алгоритмы n2 часто имеют плохую репутацию, но некоторые из этих алгоритмов обычно имеют определенные преимущества. InsertSort может выполнять сортировку за O (n) раз, если коллекция уже отсортирована, и постепенно уменьшается до O (n2).
 - InsertSort - один из лучших способов сортировки в ситуациях, когда вы заранее знаете, что ваши данные в основном находятся в отсортированном порядке.
 <br> </br>
@@ -189,11 +188,18 @@ dequeue (_ :) временная сложность до амортизиров�
 - [implementation](https://github.com/egorskikh/IOS-Data-Structures-and-Algorithms/tree/main/Section%204.%20Sorting%20Algorithms/merge-sort/merge-sort.playground)
 - Сортировка слиянием относится к категории алгоритмов «разделяй и властвуй».
 - Существует множество реализаций сортировки слиянием, и вы можете иметь разные характеристики производительности в зависимости от реализации.
+
+| Sorting | implementation | 
+| ------------- | ------------- | 
+| Bubble Sort | [example](https://github.com/egorskikh/IOS-Data-Structures-and-Algorithms/blob/main/Section%204.%20Sorting%20Algorithms/n-2-sorting/n-2-sorting.playground/Sources/BubbleSort.swift) | 
+| Insertion Sort | [example](https://github.com/egorskikh/IOS-Data-Structures-and-Algorithms/blob/main/Section%204.%20Sorting%20Algorithms/n-2-sorting/n-2-sorting.playground/Sources/InsertionSort.swift) |
+| Selection Sort | [example](https://github.com/egorskikh/IOS-Data-Structures-and-Algorithms/blob/main/Section%204.%20Sorting%20Algorithms/n-2-sorting/n-2-sorting.playground/Sources/SelectionSort.swift) | 
+
 <br> </br>
 
 ## **Radix Sort**
 ### Key points
-- [implementation](https://github.com/egorskikh/IOS-Data-Structures-and-Algorithms/tree/main/Section%204.%20Sorting%20Algorithms/radix-sort/RadixSort.playground)
+- [implementation](https://github.com/egorskikh/IOS-Data-Structures-and-Algorithms/blob/main/Section%204.%20Sorting%20Algorithms/radix-sort/RadixSort.playground/Sources/RadixSort.swift)
 - Радиксная сортировка - это несравнительная сортировка, которая не основывается на сравнении двух значений. Сортировка Radix использует сегментную сортировку, которая похожа на решето для фильтрации значений. Полезная аналогия - это то, как некоторые торговые автоматы принимают монеты - монеты различаются по размеру.
 - Radix sort может быть одним из самых быстрых алгоритмов сортировки для сортировки значений с позиционным обозначением.
 - В этой главе описана сортировка по основанию счисления младших разрядов. Другой способ реализовать сортировку по системе счисления - это форма старших цифр. Эта форма сортирует, отдавая приоритет наиболее значимым цифрам над меньшими, и лучше всего иллюстрируется поведением сортировки типа String.
@@ -201,13 +207,12 @@ dequeue (_ :) временная сложность до амортизиров�
 
 ## **Heap Sort**
 ### Key points
-- [implementation](https://github.com/egorskikh/IOS-Data-Structures-and-Algorithms/tree/main/Section%204.%20Sorting%20Algorithms/heap-sort/HeapSort.playground)
+- [implementation](https://github.com/egorskikh/IOS-Data-Structures-and-Algorithms/blob/main/Section%204.%20Sorting%20Algorithms/heap-sort/HeapSort.playground/Contents.swift)
 - Сортировка кучи использует структуру данных max-heap(максимальной кучи) для сортировки элементов в массиве.
 <br> </br>
 
 ## **Quick Sort**
 ### Key points
-- [implementation](https://github.com/egorskikh/IOS-Data-Structures-and-Algorithms/tree/main/Section%204.%20Sorting%20Algorithms/quick-sort/quicksort.playground)
 - Наивное разбиение создает новый массив для каждой функции фильтра; это неэффективно. Все остальные стратегии действуют.
 - При разбиении Lomuto’s последний элемент выбирается в качестве опорного.
 - При разбиении Hoare’s в качестве стержня выбирается первый элемент.
@@ -216,6 +221,15 @@ dequeue (_ :) временная сложность до амортизиров�
 - Median of three находит точку поворота, беря медианы первого, среднего и последнего элементов.
 - Стратегия разделения голландского национального флага помогает более эффективно организовать повторяющиеся элементы.
 
+| Sorting | implementation | 
+| ------------- | ------------- | 
+| Lomuto’s | [example](https://github.com/egorskikh/IOS-Data-Structures-and-Algorithms/blob/main/Section%204.%20Sorting%20Algorithms/quick-sort/quicksort.playground/Sources/quicksortLomuto.swift) | 
+| Hoare’s  | [example](https://github.com/egorskikh/IOS-Data-Structures-and-Algorithms/blob/main/Section%204.%20Sorting%20Algorithms/quick-sort/quicksort.playground/Sources/quicksortHoare.swift) |
+| Median | [example](https://github.com/egorskikh/IOS-Data-Structures-and-Algorithms/blob/main/Section%204.%20Sorting%20Algorithms/quick-sort/quicksort.playground/Sources/quicksortMedian.swift) | 
+| Naive | [example](https://github.com/egorskikh/IOS-Data-Structures-and-Algorithms/blob/main/Section%204.%20Sorting%20Algorithms/quick-sort/quicksort.playground/Sources/quicksortNaive.swift) | 
+| Dutch Flag | [example](https://github.com/egorskikh/IOS-Data-Structures-and-Algorithms/blob/main/Section%204.%20Sorting%20Algorithms/quick-sort/quicksort.playground/Sources/quicksortDutchFlag.swift) | 
+
+<br> </br>
 ## **Graphs**
 ### Key points
 <br> </br>
