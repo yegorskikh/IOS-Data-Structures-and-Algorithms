@@ -1,4 +1,16 @@
 # IOS-Data-Structures-and-Algorithms
+
+<p align='center'>
+This repository was written using this book.
+<p align='center'>
+</p>
+
+<p align='center'>
+ <a href='https://www.raywenderlich.com/books/data-structures-algorithms-in-swift' target="_blank">
+    <img src="https://img.shields.io/badge/swift-Data Structures and Algorithms-9cf"/>
+<p align='center'>
+</p>
+
 ## Table of Contents: Overview
 
 > Section I: Introduction
@@ -6,13 +18,13 @@
 * [**Set, Dictionary, Array**](https://github.com/egorskikh/IOS-Data-Structures-and-Algorithms#set-dictionary-array)
 <br> </br>
 
-> Section II: Elementary Data Structures
+>> Section II: Elementary Data Structures
 * [**Stack**](https://github.com/egorskikh/IOS-Data-Structures-and-Algorithms#stack) 
 * [**LinkedList**](https://github.com/egorskikh/IOS-Data-Structures-and-Algorithms#linkedlist)
 * [**Queues**](https://github.com/egorskikh/IOS-Data-Structures-and-Algorithms#queues)
 <br> </br>
 
-> Section III: Trees
+>>> Section III: Trees
 - [**Trees**](https://github.com/egorskikh/IOS-Data-Structures-and-Algorithms#three)
 - [**Binary Trees**](https://github.com/egorskikh/IOS-Data-Structures-and-Algorithms#binary-trees)
 - [**Binary Search Trees**](https://github.com/egorskikh/IOS-Data-Structures-and-Algorithms#binary-search-trees)
@@ -23,7 +35,7 @@
 - [**Priority Queue**](https://github.com/egorskikh/IOS-Data-Structures-and-Algorithms#priority-queue)
 <br> </br>
 
-> Section IV: Sorting Algorithms
+>>>> Section IV: Sorting Algorithms
 - [**O(n2) Sorting Algorithms**](https://github.com/egorskikh/IOS-Data-Structures-and-Algorithms#on2-sorting)
 - [**Merge Sort**](https://github.com/egorskikh/IOS-Data-Structures-and-Algorithms#merge-sort)
 - [**Radix Sort**](https://github.com/egorskikh/IOS-Data-Structures-and-Algorithms/blob/main/README.md#radix-sort)
@@ -31,7 +43,7 @@
 - [**Quick Sort**](https://github.com/egorskikh/IOS-Data-Structures-and-Algorithms/blob/main/README.md#quick-sort)
 <br> </br>
 
-> Section V: Graphs
+>>>>> Section V: Graphs
 - Graphs
 - Breadth-First Search
 - Depth-First Search
