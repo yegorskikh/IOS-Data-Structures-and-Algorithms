@@ -58,3 +58,4 @@ let vertices = graph.breadthFirstSearch(from: a)
 vertices.forEach { vertex in
     print(vertex)
 }
+
