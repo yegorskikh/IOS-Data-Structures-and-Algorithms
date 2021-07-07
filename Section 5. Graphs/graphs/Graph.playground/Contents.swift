@@ -34,3 +34,9 @@ print("--------------------------------")
 for edge in graph.edges(from: sanFrancisco) {
     print("from: \(edge.source) to: \(edge.destination)")
 }
+
+print(graph)
+
+print("Ruiz and Vincent both share a friend name Cole")
+
+
