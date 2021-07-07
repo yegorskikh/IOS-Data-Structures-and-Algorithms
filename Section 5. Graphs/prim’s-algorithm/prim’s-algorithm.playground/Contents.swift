@@ -22,3 +22,7 @@ graph.add(.undirected, from: five, to: six, weight: 6)
 
 print(graph)
 
+let (cost,mst) = Prim().produceMinimumSpanningTree(for: graph)
+print("cost: \(cost)")
+print("mst:")
+print(mst)
