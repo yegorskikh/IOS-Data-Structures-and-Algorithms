@@ -36,3 +36,35 @@ let path = dijkstra.shortestPath(to: d, paths: pathsFromA)
 for edge in path {
   print("\(edge.source) --|\(edge.weight ?? 0.0)|--> \(edge.destination)")
 }
+
+// Challenge 2
+
+let graph2 = AdjacencyList<String>()
+
+let aa = graph2.createVertex(data: "A")
+let bb = graph2.createVertex(data: "B")
+let cc = graph2.createVertex(data: "C")
+let dd = graph2.createVertex(data: "D")
+let ee = graph2.createVertex(data: "E")
+
+graph2.add(.directed, from: aa, to: bb, weight: 1)
+graph2.add(.directed, from: aa, to: ee, weight: 21)
+graph2.add(.directed, from: aa, to: cc, weight: 12)
+graph2.add(.directed, from: bb, to: dd, weight: 9)
+graph2.add(.directed, from: bb, to: cc, weight: 8)
+graph2.add(.directed, from: dd, to: ee, weight: 2)
+graph2.add(.directed, from: cc, to: ee, weight: 2)
+
+print(graph2)
+
+let dijkstra2 = Dijkstra(graph: graph2)
+let pathsDict2 = dijkstra2.getAllShortestPath(from: aa)
+
+for (vertex, path) in pathsDict2 {
+    
+  print("Path to \(vertex) from \(a)")
+  for edge in path {
+    print("\(edge.source) --|\(edge.weight ?? 0.0)|--> \(edge.destination)")
+  }
+  print("\n")
+}
