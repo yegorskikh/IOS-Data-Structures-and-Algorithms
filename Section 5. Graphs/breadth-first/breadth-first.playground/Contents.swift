@@ -22,3 +22,39 @@ graph.add(.undirected, from: c, to: g, weight: nil)
 graph.add(.undirected, from: e, to: h, weight: nil)
 graph.add(.undirected, from: e, to: f, weight: nil)
 graph.add(.undirected, from: f, to: g, weight: nil)
+
+
+extension Graph where Element: Hashable {
+    
+    func breadthFirstSearch(from source: Vertex<Element>) -> [Vertex<Element>] {
+        
+        var queue = QueueStack<Vertex<Element>>()
+        var enqueued: Set<Vertex<Element>> = []
+        var visited: [Vertex<Element>] = []
+        
+        queue.enqueue(source)
+        enqueued.insert(source)
+        
+        while let vertex = queue.dequeue() {
+            
+            visited.append(vertex)
+            let neighborEdges = edges(from: vertex)
+            
+            neighborEdges.forEach { edge in
+                if !enqueued.contains(edge.destination) {
+                    queue.enqueue(edge.destination)
+                    enqueued.insert(edge.destination)
+                }
+            }
+            
+        }
+        
+        return visited
+    }
+    
+}
+
+let vertices = graph.breadthFirstSearch(from: a)
+vertices.forEach { vertex in
+    print(vertex)
+}
