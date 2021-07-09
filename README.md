@@ -35,7 +35,7 @@ This repository was written based on this book.
 <br> </br>
 
 > Section IV: Sorting Algorithms
-- [**O(n2) Sorting Algorithms**](https://github.com/egorskikh/IOS-Data-Structures-and-Algorithms#on2-sorting)
+- [**O(n2) Sorting Algorithms (Bubble, Insertion, Selection)**](https://github.com/egorskikh/IOS-Data-Structures-and-Algorithms#on2-sorting)
 - [**Merge Sort**](https://github.com/egorskikh/IOS-Data-Structures-and-Algorithms#merge-sort)
 - [**Radix Sort**](https://github.com/egorskikh/IOS-Data-Structures-and-Algorithms/blob/main/README.md#radix-sort)
 - [**Heap Sort**](https://github.com/egorskikh/IOS-Data-Structures-and-Algorithms/blob/main/README.md#heap-sort)
@@ -178,15 +178,91 @@ This repository was written based on this book.
 - Это делает цель очереди приоритетов ясной и лаконичной. Его единственная задача - **поставить в очередь и удалять элементы из очереди**, ничего больше!
 <br> </br>
 
-## **O(n2) Sorting**
+## **O(n2) Sorting (Bubble, Insertion, Selection)**
 
-| Sorting | implementation | 
-| ------------- | ------------- | 
-| Bubble Sort | [example](https://github.com/egorskikh/IOS-Data-Structures-and-Algorithms/blob/main/Section%204.%20Sorting%20Algorithms/n-2-sorting/n-2-sorting.playground/Sources/BubbleSort.swift) | 
-| Insertion Sort | [example](https://github.com/egorskikh/IOS-Data-Structures-and-Algorithms/blob/main/Section%204.%20Sorting%20Algorithms/n-2-sorting/n-2-sorting.playground/Sources/InsertionSort.swift) |
-| Selection Sort | [example](https://github.com/egorskikh/IOS-Data-Structures-and-Algorithms/blob/main/Section%204.%20Sorting%20Algorithms/n-2-sorting/n-2-sorting.playground/Sources/SelectionSort.swift) | 
-
+> Bubble Sort
+```swift 
+public func bubbleSort<T>(_ collection: inout T) where T: MutableCollection, T.Element: Comparable {
+    
+    guard collection.count >= 2 else { return }
+    
+    for end in collection.indices.reversed() {
+        
+        var swapped = false
+        var current = collection.startIndex
+        
+        while current < end {
+        
+            let next = collection.index(after: current)
+            
+            if collection[current] > collection[next] {
+                collection.swapAt(current, next)
+                swapped = true
+            }
+            
+            current = next
+        }
+ 
+        if !swapped { return }
+    }  
+}
+```
+> Insertion Sort
+```swift
+public func insertionSort<T>(_ collection: inout T) where T: BidirectionalCollection & MutableCollection,
+                                                          T.Element: Comparable {
+    
+    guard collection.count >= 2 else { return }
+    
+    for current in collection.indices {
+        
+        var shifting = current
+        
+        while shifting > collection.startIndex {
+            
+            let previous = collection.index(before: shifting)
+            
+            if collection[shifting] < collection[previous] {
+                collection.swapAt(shifting, previous)
+            } else {
+                break
+            }
+            
+            shifting = previous
+        }
+    }
+    
+}
+```
+> Selection Sort
+```swift
+public func selectionSort<T>(_ collection: inout T) where T: MutableCollection, T.Element: Comparable {
+    
+    guard collection.count >= 2 else { return }
+    
+    for current in collection.indices {
+        
+        var lowest = current
+        var other = collection.index(after: current)
+        
+        while other < collection.endIndex {
+            
+            if collection[lowest] > collection[other] {
+                lowest = other
+            }
+            
+            other = collection.index(after: other)
+        }
+        
+        if lowest != current {
+            collection.swapAt(lowest, current)
+        }
+        
+    }   
+}
+```
 ### Key points
+- - [implementation](https://github.com/egorskikh/IOS-Data-Structures-and-Algorithms/tree/main/Section%204.%20Sorting%20Algorithms/n-2-sorting/n-2-sorting.playground/Sources)
 - Алгоритмы **n2** часто имеют плохую репутацию, но некоторые из этих алгоритмов обычно имеют определенные преимущества. **InsertSort** может выполнять сортировку за **O(n)** раз, если коллекция уже отсортирована, и постепенно уменьшается до **O(n2)**.
 - **InsertSort** - один из лучших способов сортировки в ситуациях, когда вы заранее знаете, что ваши данные в основном находятся в отсортированном порядке.
 <br> </br>
