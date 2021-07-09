@@ -35,7 +35,7 @@ This repository was written based on this book.
 <br> </br>
 
 > Section IV: Sorting Algorithms
-- [**O(n2) Sorting Algorithms (Bubble, Insertion, Selection)**](https://github.com/egorskikh/IOS-Data-Structures-and-Algorithms#on2-sorting)
+- [**O(n2) Sorting Algorithms (Bubble, Insertion, Selection)**](https://github.com/egorskikh/IOS-Data-Structures-and-Algorithms#on2-sorting-bubble-insertion-selection)
 - [**Merge Sort**](https://github.com/egorskikh/IOS-Data-Structures-and-Algorithms#merge-sort)
 - [**Radix Sort**](https://github.com/egorskikh/IOS-Data-Structures-and-Algorithms/blob/main/README.md#radix-sort)
 - [**Heap Sort**](https://github.com/egorskikh/IOS-Data-Structures-and-Algorithms/blob/main/README.md#heap-sort)
