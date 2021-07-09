@@ -262,7 +262,7 @@ public func selectionSort<T>(_ collection: inout T) where T: MutableCollection, 
 }
 ```
 ### Key points
-- - [implementation](https://github.com/egorskikh/IOS-Data-Structures-and-Algorithms/tree/main/Section%204.%20Sorting%20Algorithms/n-2-sorting/n-2-sorting.playground/Sources)
+- [implementation](https://github.com/egorskikh/IOS-Data-Structures-and-Algorithms/tree/main/Section%204.%20Sorting%20Algorithms/n-2-sorting/n-2-sorting.playground/Sources)
 - Алгоритмы **n2** часто имеют плохую репутацию, но некоторые из этих алгоритмов обычно имеют определенные преимущества. **InsertSort** может выполнять сортировку за **O(n)** раз, если коллекция уже отсортирована, и постепенно уменьшается до **O(n2)**.
 - **InsertSort** - один из лучших способов сортировки в ситуациях, когда вы заранее знаете, что ваши данные в основном находятся в отсортированном порядке.
 <br> </br>
