@@ -43,11 +43,11 @@ This repository was written based on this book.
 <br> </br>
 
 > Section V: Graphs
-- [Graphs](https://github.com/egorskikh/IOS-Data-Structures-and-Algorithms#graphs)
-- [Breadth-First Search](https://github.com/egorskikh/IOS-Data-Structures-and-Algorithms#breadth-first-search)
-- [Depth-First Search](https://github.com/egorskikh/IOS-Data-Structures-and-Algorithms#depth-first-search)
-- [Dijkstra’s Algorithm](https://github.com/egorskikh/IOS-Data-Structures-and-Algorithms#dijkstras-algorithm)
-- [Prim’s Algorithm](https://github.com/egorskikh/IOS-Data-Structures-and-Algorithms#prims-algorithm)
+- [**Graphs**](https://github.com/egorskikh/IOS-Data-Structures-and-Algorithms#graphs)
+- [**Breadth-First Search**](https://github.com/egorskikh/IOS-Data-Structures-and-Algorithms#breadth-first-search)
+- [**Depth-First Search**](https://github.com/egorskikh/IOS-Data-Structures-and-Algorithms#depth-first-search)
+- [**Dijkstra’s Algorithm**](https://github.com/egorskikh/IOS-Data-Structures-and-Algorithms#dijkstras-algorithm)
+- [**Prim’s Algorithm**](https://github.com/egorskikh/IOS-Data-Structures-and-Algorithms#prims-algorithm)
 <br> </br>
 
 ## Table of Contents: Extended
@@ -343,14 +343,14 @@ public func selectionSort<T>(_ collection: inout T) where T: MutableCollection, 
 ### Key points
 - [implementation]()
 - Поиск в глубину (DFS) - это еще один алгоритм для обхода или поиска по графу.
-- DFS исследует ветку, насколько это возможно, до конца.
+- **DFS** исследует ветку, насколько это возможно, до конца.
 - Используйте стековую структуру данных, чтобы отслеживать, насколько глубоко вы находитесь на графике. Выскакивайте из стека, только когда заходите в тупик.
 <br> </br>
 
 ## **Dijkstra’s Algorithm**
 ### Key points
 - [implementation]()
-- Алгоритм Дейкстры находит путь к остальным узлам с учетом начальной вершины.
+- Алгоритм **Дейкстры** находит путь к остальным узлам с учетом начальной вершины.
 - Этот алгоритм полезен для поиска кратчайших путей между разными конечными точками.
 - Состояние посещения используется для отслеживания ребер до начальной вершины.
 - Структура данных очереди приоритетов помогает всегда возвращать вершину с
@@ -361,6 +361,6 @@ public func selectionSort<T>(_ collection: inout T) where T: MutableCollection, 
 ## **Prim’s Algorithm**
 ### Key points
 - [implementation]()
-- Остовное дерево - это подграф неориентированного графа, который содержит все вершины с наименьшим числом ребер.
-- Алгоритм Прима - это жадный алгоритм, который строит минимальное остовное дерево.
+- **Остовное дерево** - это подграф неориентированного графа, который содержит все вершины с наименьшим числом ребер.
+- **Алгоритм Прима** - это жадный алгоритм, который строит минимальное остовное дерево.
 - Вы можете использовать три разные структуры данных: очередь приоритетов, наборы и списки смежности для построения алгоритма Прима.
