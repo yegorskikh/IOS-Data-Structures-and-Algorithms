@@ -51,6 +51,9 @@ This repository was written based on this book.
 <br> </br>
 
 ## Table of Contents: Extended
+
+# Section I: Introduction
+
 ## **Complexity**
 ### Key points
 - [implementation](https://github.com/egorskikh/https://github.com/egorskikh/IOS-Data-Structures-and-Algorithms/blob/main/Section%201.%20Introduction/Complexity/Complexity.swift)
@@ -69,7 +72,11 @@ This repository was written based on this book.
 - Set гарантирует уникальность набора значений. Набор оптимизирован по скорости и лишен возможности сохранять порядок элементов.
 <br> </br>
 
+# Section II: Elementary Data Structures
+
 ## **Stack**
+![stack](https://user-images.githubusercontent.com/60622982/128637540-98bb0bd2-5f8c-47a4-9e8c-7b11e18dc469.png)
+
 ### Key points
 - [implementation](https://github.com/egorskikh/IOS-Data-Structures-and-Algorithms/blob/main/Section%202.%20Elementary%20Data%20Structures/Stacks/Stacks.playground/Sources/Stack.swift)
 * Стек - это структура данных **LIFO**, принцип «последний пришел - первый ушел».
@@ -78,6 +85,7 @@ This repository was written based on this book.
 <br> </br>
 
 ## **LinkedList** 
+![Снимок экрана 2021-08-08 в 18 39 00](https://user-images.githubusercontent.com/60622982/128637581-ad7be8b0-8204-4064-96be-b14d4b36580b.png)
 ### Key points
 - [implementation](https://github.com/egorskikh/IOS-Data-Structures-and-Algorithms/blob/main/Section%202.%20Elementary%20Data%20Structures/LinkedList/LinkedList.playground/Sources/LinkedList.swift)
 - Связанные списки бывают линейными и однонаправленными. Как только вы переместите ссылку с одного узла на другой, вы не сможете вернуться назад.
@@ -87,6 +95,7 @@ This repository was written based on this book.
 <br> </br>
 
 ## **Queues**
+![Снимок экрана 2021-08-08 в 18 41 49](https://user-images.githubusercontent.com/60622982/128637661-8a24d542-5dd7-4990-974a-de456b6bfc09.png)
 ### Key points
 - [implementation](https://github.com/egorskikh/IOS-Data-Structures-and-Algorithms/tree/main/Section%202.%20Elementary%20Data%20Structures/Queues/Queue.playground/Pages)
 - Очередь использует стратегию **FIFO**, элемент, добавленный первым, также должен быть сначала удален.
@@ -98,6 +107,8 @@ This repository was written based on this book.
 **dequeue(_ :)** временная сложность до амортизированной операции **O(1)**.
 - Реализация двойного стека превосходит Linked-list с точки зрения пространственной локализации.
 <br> </br>
+
+# Section III: Trees
 
 ## **Three**
 ### Key points
@@ -176,6 +187,9 @@ This repository was written based on this book.
 - Он создает уровень абстракции, фокусируясь на ключевых операциях очереди и
 исключая дополнительные функции, предоставляемые структурой данных кучи.
 - Это делает цель очереди приоритетов ясной и лаконичной. Его единственная задача - **поставить в очередь и удалять элементы из очереди**, ничего больше!
+<br> </br>
+
+# Section IV: Sorting Algorithms
 <br> </br>
 
 ## **O(n2) Sorting (Bubble, Insertion, Selection)**
@@ -307,6 +321,8 @@ public func selectionSort<T>(_ collection: inout T) where T: MutableCollection, 
 - **Median of three** находит точку поворота, беря медианы первого, среднего и последнего элементов.
 - Стратегия разделения голландского национального флага помогает более эффективно организовать повторяющиеся элементы.
 <br> </br>
+
+# Section V: Graphs
 
 ## **Graphs**
 
