@@ -111,6 +111,7 @@ This repository was written based on this book.
 # Section III: Trees
 
 ## **Three**
+![Снимок экрана 2021-08-09 в 01 03 15](https://user-images.githubusercontent.com/60622982/128647031-49d2cfd1-5c29-49c0-b108-94938f75c02e.png)
 ### Key points
 - [implementation](https://github.com/egorskikh/IOS-Data-Structures-and-Algorithms/blob/main/Section%203.%20Threes/general-purpose-tree/GeneralPurposeTree.playground/Sources/TreeNode.swift)
 - Деревья имеют некоторое сходство со связанными списками, но, в то время как узлы
@@ -123,6 +124,7 @@ This repository was written based on this book.
 <br> </br>
 
 ## **Binary Trees**
+![Снимок экрана 2021-08-09 в 01 04 22](https://user-images.githubusercontent.com/60622982/128647050-04a71f25-8579-4cf4-b400-f4b156b29933.png)
 ### Key points
 - [implementation](https://github.com/egorskikh/IOS-Data-Structures-and-Algorithms/blob/main/Section%203.%20Threes/binary-tree/BinaryTrees.playground/Sources/BinaryNode.swift)
 - Бинарное дерево является основой некоторых из наиболее важных древовидных структур. Дерево двоичного поиска и дерево AVL - это двоичные деревья, которые накладывают ограничения на поведение при вставке/удалении.
@@ -130,6 +132,7 @@ This repository was written based on this book.
 <br> </br>
 
 ## **Binary Search Trees**
+![Снимок экрана 2021-08-09 в 01 04 59](https://user-images.githubusercontent.com/60622982/128647062-33d2bb30-9627-4bfb-baf1-de773f233f4c.png)
 ### Key points
 - [implementation](https://github.com/egorskikh/IOS-Data-Structures-and-Algorithms/blob/main/Section%203.%20Threes/binary-search/BinarySearch.playground/Sources/BinarySearch.swift)
 - Дерево двоичного поиска - это мощная структура данных для хранения отсортированных данных.
@@ -140,6 +143,8 @@ This repository was written based on this book.
 <br> </br>
 
 ## **AVL Trees**
+![Снимок экрана 2021-08-09 в 01 06 18](https://user-images.githubusercontent.com/60622982/128647092-64dcbb03-5f2b-4c86-96c8-6f84d27f625e.png)
+![Снимок экрана 2021-08-09 в 01 06 34](https://user-images.githubusercontent.com/60622982/128647102-566cc010-580a-45b1-af63-14e9f400d81f.png)
 ### Key points
 - [implementation](https://github.com/egorskikh/IOS-Data-Structures-and-Algorithms/blob/main/Section%203.%20Threes/avl-tree/avl-tree.playground/Sources/AVLTree.swift)
 - Самобалансирующееся дерево позволяет избежать снижения производительности за счет выполнения процедуры балансировки всякий раз, когда вы добавляете или удаляете элементы в дереве.
@@ -148,6 +153,7 @@ This repository was written based on this book.
 <br> </br>
 
 ## **Tries**
+![Снимок экрана 2021-08-09 в 01 07 23](https://user-images.githubusercontent.com/60622982/128647120-dd57dc9e-87a8-47b9-bf16-999bb7e49335.png)
 ### Key points
 - [implementation](https://github.com/egorskikh/IOS-Data-Structures-and-Algorithms/blob/main/Section%203.%20Threes/tries/Trie.playground/Sources/Trie.swift)
 - **Tries** обеспечивают отличные показатели производительности в отношении сопоставления префиксов.
@@ -155,6 +161,7 @@ This repository was written based on this book.
 <br> </br>
 
 ## **Binary Search**
+![Снимок экрана 2021-08-09 в 01 08 09](https://user-images.githubusercontent.com/60622982/128647137-deb8e2ca-0606-4be2-8455-6370ea498e26.png)
 ### Key points
 - [implementation](https://github.com/egorskikh/IOS-Data-Structures-and-Algorithms/blob/main/Section%203.%20Threes/binary-search/BinarySearch.playground/Sources/BinarySearch.swift)
 - **Binary search** - алгоритм работает только для отсортированных коллекций.
@@ -163,7 +170,7 @@ This repository was written based on this book.
 <br> </br>
 
 ## **The Heap Data Structure**
-
+![Снимок экрана 2021-08-09 в 01 09 00](https://user-images.githubusercontent.com/60622982/128647152-5bc0b8c4-d9b5-42fd-a33b-1541a87f21c4.png)
 Вот сводка алгоритмической сложности операций с кучей, которые мы реализовали в этой главе:
 
 | Operations | Time Complexity | 
@@ -181,6 +188,7 @@ This repository was written based on this book.
 <br> </br>
 
 ## **Priority Queue**
+![Снимок экрана 2021-08-09 в 01 09 43](https://user-images.githubusercontent.com/60622982/128647164-83e23587-84b6-48d9-ac5e-f71b2e294cc6.png)
 ### Key points
 - [implementation](https://github.com/egorskikh/IOS-Data-Structures-and-Algorithms/blob/main/Section%203.%20Threes/priority-queue/PriorityQueue.playground/Sources/PriorityQueue.swift)
 - Очередь с приоритетом часто используется для поиска элемента в порядке приоритета.
