@@ -333,7 +333,7 @@ public func selectionSort<T>(_ collection: inout T) where T: MutableCollection, 
 # Section V: Graphs
 
 ## **Graphs**
-
+![Снимок экрана 2021-08-14 в 17 48 51](https://user-images.githubusercontent.com/60622982/129450185-6c45833b-7986-4297-919a-a3e3da656eaf.png)
 | Operations | Adjacency List | Adjacency Matrix |
 | ------------- | ------------- | ------------- | 
 | Storage Space | **O(V+E)** | **O(V^2)** |  
@@ -355,6 +355,7 @@ public func selectionSort<T>(_ collection: inout T) where T: MutableCollection, 
 <br> </br>
 
 ## **Breadth-First Search**
+![Снимок экрана 2021-08-14 в 18 31 30](https://user-images.githubusercontent.com/60622982/129451323-f2946f17-22ee-4aad-b23f-7a95a4f9f23e.png)
 ### Key points
 - [implementation]()
 - Поиск в ширину (BFS) - это алгоритм обхода или поиска по графу.
@@ -364,6 +365,7 @@ public func selectionSort<T>(_ collection: inout T) where T: MutableCollection, 
 <br> </br>
 
 ## **Depth-First Search**
+![Снимок экрана 2021-08-14 в 18 29 24](https://user-images.githubusercontent.com/60622982/129451281-29652ac0-6ecc-4a44-a82e-b45f90d55995.png)
 ### Key points
 - [implementation]()
 - Поиск в глубину (DFS) - это еще один алгоритм для обхода или поиска по графу.
@@ -372,6 +374,7 @@ public func selectionSort<T>(_ collection: inout T) where T: MutableCollection, 
 <br> </br>
 
 ## **Dijkstra’s Algorithm**
+![Снимок экрана 2021-08-14 в 18 27 04](https://user-images.githubusercontent.com/60622982/129451211-6dbcf5a3-fbed-43a4-9be7-bd4713ba2e6a.png)
 ### Key points
 - [implementation]()
 - Алгоритм **Дейкстры** находит путь к остальным узлам с учетом начальной вершины.
@@ -383,6 +386,7 @@ public func selectionSort<T>(_ collection: inout T) where T: MutableCollection, 
 <br> </br>
 
 ## **Prim’s Algorithm**
+![Снимок экрана 2021-08-14 в 18 28 50](https://user-images.githubusercontent.com/60622982/129451265-c8019c3d-75e3-48d1-a1d2-60bac2ac7022.png)
 ### Key points
 - [implementation]()
 - **Остовное дерево** - это подграф неориентированного графа, который содержит все вершины с наименьшим числом ребер.
