@@ -322,6 +322,28 @@ if set.contains(id) {
 
 ---
 
+### 💡 Простой пример
+
+```swift
+struct Stack<T> {
+    private var elements: [T] = []
+
+    mutating func push(_ value: T) {
+        elements.append(value)
+    }
+
+    mutating func pop() -> T? {
+        elements.popLast()
+    }
+
+    func peek() -> T? {
+        elements.last
+    }
+}
+```
+
+---
+
 ### 💡 Где используется
 
 - навигация (back stack)  
@@ -353,6 +375,37 @@ if set.contains(id) {
 - удаление из начала - O(1)  
 - поиск элемента - O(n)  
 - нет доступа по индексу  
+
+---
+
+### 💡 Простой пример
+
+```swift
+class Node<T> {
+    var value: T
+    var next: Node?
+
+    init(value: T) {
+        self.value = value
+    }
+}
+
+class LinkedList<T> {
+    private var head: Node<T>?
+
+    func push(_ value: T) {
+        let node = Node(value: value)
+        node.next = head
+        head = node
+    }
+
+    func pop() -> T? {
+        let value = head?.value
+        head = head?.next
+        return value
+    }
+}
+```
 
 ---
 
@@ -402,22 +455,35 @@ if set.contains(id) {
 
 ---
 
+### 💡 Простой пример (через 2 стека)
+
+```swift
+struct Queue<T> {
+    private var input: [T] = []
+    private var output: [T] = []
+
+    mutating func enqueue(_ value: T) {
+        input.append(value)
+    }
+
+    mutating func dequeue() -> T? {
+        if output.isEmpty {
+            output = input.reversed()
+            input.removeAll()
+        }
+        return output.popLast()
+    }
+}
+```
+
+---
+
 ### Важно понимать
 
 - обычный Array плохо подходит для очереди (удаление из начала - O(n))  
 - лучше использовать:
   - ring buffer  
   - или 2 стека  
-
----
-
-### 💡 Оптимизация через 2 стека
-
-- enqueue - кладём в первый стек  
-- dequeue - берём из второго  
-- если второй пуст - перекладываем элементы  
-
-👉 амортизированная сложность - O(1)
 
 ---
 
