@@ -591,99 +591,77 @@ struct Queue<T> {
 # Section IV: Sorting Algorithms
 <br> </br>
 
-## **O(n2) Sorting (Bubble, Insertion, Selection)**
+## **O(n²) Sorting (упрощённые версии)**
 
-> Bubble Sort
-```swift 
-public func bubbleSort<T>(_ collection: inout T) where T: MutableCollection, T.Element: Comparable {
-    
-    guard collection.count >= 2 else { return }
-    
-    for end in collection.indices.reversed() {
-        
+### Bubble Sort
+```swift
+func bubbleSort(_ array: inout [Int]) {
+    for i in 0..<array.count {
         var swapped = false
-        var current = collection.startIndex
-        
-        while current < end {
-        
-            let next = collection.index(after: current)
-            
-            if collection[current] > collection[next] {
-                collection.swapAt(current, next)
+
+        for j in 0..<(array.count - 1 - i) {
+            if array[j] > array[j + 1] {
+                array.swapAt(j, j + 1)
                 swapped = true
             }
-            
-            current = next
         }
- 
-        if !swapped { return }
-    }  
+
+        if !swapped { break }
+    }
 }
 ```
-> Insertion Sort
+
+---
+
+### Insertion Sort
 ```swift
-public func insertionSort<T>(_ collection: inout T) where T: BidirectionalCollection & MutableCollection,
-                                                          T.Element: Comparable {
-    
-    guard collection.count >= 2 else { return }
-    
-    for current in collection.indices {
-        
-        var shifting = current
-        
-        while shifting > collection.startIndex {
-            
-            let previous = collection.index(before: shifting)
-            
-            if collection[shifting] < collection[previous] {
-                collection.swapAt(shifting, previous)
-            } else {
-                break
-            }
-            
-            shifting = previous
+func insertionSort(_ array: inout [Int]) {
+    for i in 1..<array.count {
+        var j = i
+
+        while j > 0 && array[j] < array[j - 1] {
+            array.swapAt(j, j - 1)
+            j -= 1
         }
     }
-    
 }
 ```
-> Selection Sort
+
+---
+
+### Selection Sort
 ```swift
-public func selectionSort<T>(_ collection: inout T) where T: MutableCollection, T.Element: Comparable {
-    
-    guard collection.count >= 2 else { return }
-    
-    for current in collection.indices {
-        
-        var lowest = current
-        var other = collection.index(after: current)
-        
-        while other < collection.endIndex {
-            
-            if collection[lowest] > collection[other] {
-                lowest = other
+func selectionSort(_ array: inout [Int]) {
+    for i in 0..<array.count {
+        var minIndex = i
+
+        for j in (i + 1)..<array.count {
+            if array[j] < array[minIndex] {
+                minIndex = j
             }
-            
-            other = collection.index(after: other)
         }
-        
-        if lowest != current {
-            collection.swapAt(lowest, current)
+
+        if i != minIndex {
+            array.swapAt(i, minIndex)
         }
-        
-    }   
+    }
 }
 ```
-### Key points
-- [implementation](https://github.com/egorskikh/IOS-Data-Structures-and-Algorithms/tree/main/Section%204.%20Sorting%20Algorithms/n-2-sorting/n-2-sorting.playground/Sources)
-- Алгоритмы **n2** часто имеют плохую репутацию, но некоторые из этих алгоритмов обычно имеют определенные преимущества. **InsertSort** может выполнять сортировку за **O(n)** раз, если коллекция уже отсортирована, и постепенно уменьшается до **O(n2)**.
-- **InsertSort** - один из лучших способов сортировки в ситуациях, когда вы заранее знаете, что ваши данные в основном находятся в отсортированном порядке.
-<br> </br>
-## **Merge Sort**
-### Key points
-- [implementation](https://github.com/egorskikh/IOS-Data-Structures-and-Algorithms/tree/main/Section%204.%20Sorting%20Algorithms/merge-sort/merge-sort.playground)
-- Сортировка слиянием относится к категории алгоритмов **«разделяй и властвуй»**.
-- Существует множество реализаций сортировки слиянием, и вы можете иметь разные характеристики производительности в зависимости от реализации.
+
+---
+
+## 💡 Сложность
+
+- все алгоритмы - O(n²) в худшем случае  
+- память - O(1) (in-place)  
+
+---
+
+## 💡 Разница
+
+- Bubble Sort - самый простой, но медленный  
+- Insertion Sort - быстрый на почти отсортированных данных  
+- Selection Sort - всегда делает одинаковое число сравнений  
 
 <br> </br>
 
